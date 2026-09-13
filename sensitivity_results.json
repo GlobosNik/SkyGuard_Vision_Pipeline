@@ -1,0 +1,3886 @@
+{
+  "baseline": {
+    "map50": 0.8412306823474156,
+    "map": 0.4274137883216829,
+    "ap_small": 0.3723227666036161,
+    "per_class_ap50": {
+      "bird": 0.7265943415730558,
+      "drone": 0.9558670231217754
+    },
+    "confusion_metrics": {}
+  },
+  "layers": {
+    "model.0.conv": {
+      "4": {
+        "layer_name": "model.0.conv",
+        "bits": 4,
+        "map50": 0.8142751156528777,
+        "map": 0.4019276107234181,
+        "ap_small": 0.34025726784949684,
+        "per_class_ap50": {
+          "bird": 0.7061400352524938,
+          "drone": 0.9224101960532616
+        },
+        "confusion_metrics": {},
+        "param_count": 432,
+        "sensitivity_map50": 0.026955566694537914,
+        "sensitivity_map": 0.025486177598264825,
+        "sensitivity_small": 0.03206549875411924,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.020454306320562,
+          "drone": 0.03345682706851383
+        }
+      },
+      "8": {
+        "layer_name": "model.0.conv",
+        "bits": 8,
+        "map50": 0.8409445955399288,
+        "map": 0.4262859942692314,
+        "ap_small": 0.373381774877035,
+        "per_class_ap50": {
+          "bird": 0.7257589115067391,
+          "drone": 0.9561302795731185
+        },
+        "confusion_metrics": {},
+        "param_count": 432,
+        "sensitivity_map50": 0.00028608680748676285,
+        "sensitivity_map": 0.0011277940524515029,
+        "sensitivity_small": -0.0010590082734189266,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0008354300663167002,
+          "drone": -0.0002632564513430635
+        }
+      }
+    },
+    "model.1.conv": {
+      "4": {
+        "layer_name": "model.1.conv",
+        "bits": 4,
+        "map50": 0.7904685034812173,
+        "map": 0.39566768251461526,
+        "ap_small": 0.35215745886988503,
+        "per_class_ap50": {
+          "bird": 0.6400244923880596,
+          "drone": 0.9409125145743751
+        },
+        "confusion_metrics": {},
+        "param_count": 4608,
+        "sensitivity_map50": 0.05076217886619827,
+        "sensitivity_map": 0.03174610580706766,
+        "sensitivity_small": 0.02016530773373104,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.08656984918499622,
+          "drone": 0.014954508547400325
+        }
+      },
+      "8": {
+        "layer_name": "model.1.conv",
+        "bits": 8,
+        "map50": 0.8412023957432861,
+        "map": 0.4277111741831134,
+        "ap_small": 0.37350935388196754,
+        "per_class_ap50": {
+          "bird": 0.7262141927159909,
+          "drone": 0.9561905987705814
+        },
+        "confusion_metrics": {},
+        "param_count": 4608,
+        "sensitivity_map50": 2.828660412945716e-05,
+        "sensitivity_map": -0.00029738586143046586,
+        "sensitivity_small": -0.0011865872783514697,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0003801488570649436,
+          "drone": -0.0003235756488060293
+        }
+      }
+    },
+    "model.2.cv1.conv": {
+      "4": {
+        "layer_name": "model.2.cv1.conv",
+        "bits": 4,
+        "map50": 0.8388715640923233,
+        "map": 0.4273571657197827,
+        "ap_small": 0.3750847214412198,
+        "per_class_ap50": {
+          "bird": 0.7260337314268166,
+          "drone": 0.9517093967578301
+        },
+        "confusion_metrics": {},
+        "param_count": 1024,
+        "sensitivity_map50": 0.002359118255092274,
+        "sensitivity_map": 5.662260190020252e-05,
+        "sensitivity_small": -0.0027619548376037195,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0005606101462392044,
+          "drone": 0.004157626363945344
+        }
+      },
+      "8": {
+        "layer_name": "model.2.cv1.conv",
+        "bits": 8,
+        "map50": 0.8407784671738034,
+        "map": 0.4270900992719692,
+        "ap_small": 0.37207073788652645,
+        "per_class_ap50": {
+          "bird": 0.7256036747192804,
+          "drone": 0.9559532596283263
+        },
+        "confusion_metrics": {},
+        "param_count": 1024,
+        "sensitivity_map50": 0.00045221517361215824,
+        "sensitivity_map": 0.0003236890497136935,
+        "sensitivity_small": 0.00025202871708962515,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0009906668537753571,
+          "drone": -8.623650655092963e-05
+        }
+      }
+    },
+    "model.2.cv2.conv": {
+      "4": {
+        "layer_name": "model.2.cv2.conv",
+        "bits": 4,
+        "map50": 0.8426826542240821,
+        "map": 0.4269506728139921,
+        "ap_small": 0.3654923117996296,
+        "per_class_ap50": {
+          "bird": 0.734150137456654,
+          "drone": 0.9512151709915101
+        },
+        "confusion_metrics": {},
+        "param_count": 3072,
+        "sensitivity_map50": -0.001451971876666458,
+        "sensitivity_map": 0.00046311550769079224,
+        "sensitivity_small": 0.006830454803986474,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.007555795883598226,
+          "drone": 0.00465185213026531
+        }
+      },
+      "8": {
+        "layer_name": "model.2.cv2.conv",
+        "bits": 8,
+        "map50": 0.8417143848937704,
+        "map": 0.42743285511596324,
+        "ap_small": 0.3718492149745961,
+        "per_class_ap50": {
+          "bird": 0.7274373983729321,
+          "drone": 0.9559913714146087
+        },
+        "confusion_metrics": {},
+        "param_count": 3072,
+        "sensitivity_map50": -0.0004837025463547695,
+        "sensitivity_map": -1.906679428032021e-05,
+        "sensitivity_small": 0.0004735516290199637,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.000843056799876285,
+          "drone": -0.000124348292833254
+        }
+      }
+    },
+    "model.2.m.0.cv1.conv": {
+      "4": {
+        "layer_name": "model.2.m.0.cv1.conv",
+        "bits": 4,
+        "map50": 0.8416329283677869,
+        "map": 0.42731237530283017,
+        "ap_small": 0.3722517001291511,
+        "per_class_ap50": {
+          "bird": 0.7286555114666595,
+          "drone": 0.9546103452689143
+        },
+        "confusion_metrics": {},
+        "param_count": 1152,
+        "sensitivity_map50": -0.00040224602037131074,
+        "sensitivity_map": 0.00010141301885274734,
+        "sensitivity_small": 7.106647446497583e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0020611698936037204,
+          "drone": 0.001256677852861099
+        }
+      },
+      "8": {
+        "layer_name": "model.2.m.0.cv1.conv",
+        "bits": 8,
+        "map50": 0.841225308849157,
+        "map": 0.42720881228352237,
+        "ap_small": 0.37471200623683043,
+        "per_class_ap50": {
+          "bird": 0.7266607431348665,
+          "drone": 0.9557898745634476
+        },
+        "confusion_metrics": {},
+        "param_count": 1152,
+        "sensitivity_map50": 5.373498258576248e-06,
+        "sensitivity_map": 0.00020497603816055365,
+        "sensitivity_small": -0.0023892396332143573,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -6.640156181070278e-05,
+          "drone": 7.714855832785528e-05
+        }
+      }
+    },
+    "model.2.m.0.cv2.conv": {
+      "4": {
+        "layer_name": "model.2.m.0.cv2.conv",
+        "bits": 4,
+        "map50": 0.8277322929006596,
+        "map": 0.41737598044805074,
+        "ap_small": 0.36135421032969145,
+        "per_class_ap50": {
+          "bird": 0.707256168924369,
+          "drone": 0.9482084168769502
+        },
+        "confusion_metrics": {},
+        "param_count": 1152,
+        "sensitivity_map50": 0.013498389446755965,
+        "sensitivity_map": 0.010037807873632176,
+        "sensitivity_small": 0.010968556273924623,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.019338172648686758,
+          "drone": 0.007658606244825172
+        }
+      },
+      "8": {
+        "layer_name": "model.2.m.0.cv2.conv",
+        "bits": 8,
+        "map50": 0.8413609401634782,
+        "map": 0.4269460839672436,
+        "ap_small": 0.374762920312878,
+        "per_class_ap50": {
+          "bird": 0.7268396900171286,
+          "drone": 0.9558821903098278
+        },
+        "confusion_metrics": {},
+        "param_count": 1152,
+        "sensitivity_map50": -0.00013025781606257336,
+        "sensitivity_map": 0.00046770435443932445,
+        "sensitivity_small": -0.0024401537092619274,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00024534844407275713,
+          "drone": -1.516718805238959e-05
+        }
+      }
+    },
+    "model.3.conv": {
+      "4": {
+        "layer_name": "model.3.conv",
+        "bits": 4,
+        "map50": 0.8407708559166798,
+        "map": 0.4249369259407446,
+        "ap_small": 0.37185220183082296,
+        "per_class_ap50": {
+          "bird": 0.726713311992065,
+          "drone": 0.9548283998412946
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": 0.0004598264307358324,
+        "sensitivity_map": 0.002476862380938305,
+        "sensitivity_small": 0.00047056477279311393,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00011897041900921224,
+          "drone": 0.001038623280480766
+        }
+      },
+      "8": {
+        "layer_name": "model.3.conv",
+        "bits": 8,
+        "map50": 0.8414233997229768,
+        "map": 0.42707020555465636,
+        "ap_small": 0.37239771879089967,
+        "per_class_ap50": {
+          "bird": 0.7271323258698452,
+          "drone": 0.9557144735761083
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": -0.00019271737556114665,
+        "sensitivity_map": 0.0003435827670265623,
+        "sensitivity_small": -7.495218728359454e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0005379842967894177,
+          "drone": 0.00015254954566712442
+        }
+      }
+    },
+    "model.4.cv1.conv": {
+      "4": {
+        "layer_name": "model.4.cv1.conv",
+        "bits": 4,
+        "map50": 0.8413371557052876,
+        "map": 0.4257236539421133,
+        "ap_small": 0.3705927116244611,
+        "per_class_ap50": {
+          "bird": 0.7308004842032172,
+          "drone": 0.9518738272073579
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": -0.00010647335787195011,
+        "sensitivity_map": 0.0016901343795696078,
+        "sensitivity_small": 0.0017300549791549602,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.004206142630161391,
+          "drone": 0.003993195914417491
+        }
+      },
+      "8": {
+        "layer_name": "model.4.cv1.conv",
+        "bits": 8,
+        "map50": 0.8418270825729266,
+        "map": 0.42703676432645654,
+        "ap_small": 0.3716459851343205,
+        "per_class_ap50": {
+          "bird": 0.7276605631933042,
+          "drone": 0.9559936019525489
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": -0.0005964002255109957,
+        "sensitivity_map": 0.00037702399522637764,
+        "sensitivity_small": 0.000676781469295562,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0010662216202483865,
+          "drone": -0.00012657883077349386
+        }
+      }
+    },
+    "model.4.cv2.conv": {
+      "4": {
+        "layer_name": "model.4.cv2.conv",
+        "bits": 4,
+        "map50": 0.8389537090649304,
+        "map": 0.4200481536187549,
+        "ap_small": 0.35505878857211676,
+        "per_class_ap50": {
+          "bird": 0.7249256476408452,
+          "drone": 0.9529817704890156
+        },
+        "confusion_metrics": {},
+        "param_count": 12288,
+        "sensitivity_map50": 0.0022769732824852174,
+        "sensitivity_map": 0.007365634702928003,
+        "sensitivity_small": 0.017263978031499316,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0016686939322105854,
+          "drone": 0.0028852526327598493
+        }
+      },
+      "8": {
+        "layer_name": "model.4.cv2.conv",
+        "bits": 8,
+        "map50": 0.8417794604923964,
+        "map": 0.4270227027804977,
+        "ap_small": 0.3733587519788746,
+        "per_class_ap50": {
+          "bird": 0.7277951705308614,
+          "drone": 0.9557637504539314
+        },
+        "confusion_metrics": {},
+        "param_count": 12288,
+        "sensitivity_map50": -0.0005487781449807771,
+        "sensitivity_map": 0.000391085541185221,
+        "sensitivity_small": -0.001035985375258508,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0012008289578055997,
+          "drone": 0.00010327266784404543
+        }
+      }
+    },
+    "model.4.m.0.cv1.conv": {
+      "4": {
+        "layer_name": "model.4.m.0.cv1.conv",
+        "bits": 4,
+        "map50": 0.8447313712341096,
+        "map": 0.4266508970986062,
+        "ap_small": 0.370697824907372,
+        "per_class_ap50": {
+          "bird": 0.730398737271341,
+          "drone": 0.9590640051968781
+        },
+        "confusion_metrics": {},
+        "param_count": 4608,
+        "sensitivity_map50": -0.00350068888669397,
+        "sensitivity_map": 0.0007628912230767115,
+        "sensitivity_small": 0.0016249416962440533,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.003804395698285168,
+          "drone": -0.003196982075102661
+        }
+      },
+      "8": {
+        "layer_name": "model.4.m.0.cv1.conv",
+        "bits": 8,
+        "map50": 0.8413100872512123,
+        "map": 0.4269608050182523,
+        "ap_small": 0.37285380424964865,
+        "per_class_ap50": {
+          "bird": 0.7267148987987695,
+          "drone": 0.955905275703655
+        },
+        "confusion_metrics": {},
+        "param_count": 4608,
+        "sensitivity_map50": -7.940490379665377e-05,
+        "sensitivity_map": 0.00045298330343063187,
+        "sensitivity_small": -0.0005310376460325728,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0001205572257136911,
+          "drone": -3.825258187961644e-05
+        }
+      }
+    },
+    "model.4.m.0.cv2.conv": {
+      "4": {
+        "layer_name": "model.4.m.0.cv2.conv",
+        "bits": 4,
+        "map50": 0.8397535899785641,
+        "map": 0.42572276309938556,
+        "ap_small": 0.37326596927095274,
+        "per_class_ap50": {
+          "bird": 0.7241077961053505,
+          "drone": 0.9553993838517777
+        },
+        "confusion_metrics": {},
+        "param_count": 4608,
+        "sensitivity_map50": 0.001477092368851518,
+        "sensitivity_map": 0.0016910252222973599,
+        "sensitivity_small": -0.0009432026673366622,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0024865454677053256,
+          "drone": 0.00046763926999771055
+        }
+      },
+      "8": {
+        "layer_name": "model.4.m.0.cv2.conv",
+        "bits": 8,
+        "map50": 0.8412470589172525,
+        "map": 0.4271375012051865,
+        "ap_small": 0.37257693643402107,
+        "per_class_ap50": {
+          "bird": 0.7266677338450687,
+          "drone": 0.9558263839894363
+        },
+        "confusion_metrics": {},
+        "param_count": 4608,
+        "sensitivity_map50": -1.6376569836884514e-05,
+        "sensitivity_map": 0.0002762871164964098,
+        "sensitivity_small": -0.0002541698304049933,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -7.339227201286214e-05,
+          "drone": 4.063913233909311e-05
+        }
+      }
+    },
+    "model.5.conv": {
+      "4": {
+        "layer_name": "model.5.conv",
+        "bits": 4,
+        "map50": 0.8384901505410318,
+        "map": 0.425490920467133,
+        "ap_small": 0.3707389744550199,
+        "per_class_ap50": {
+          "bird": 0.7199699447997523,
+          "drone": 0.9570103562823112
+        },
+        "confusion_metrics": {},
+        "param_count": 147456,
+        "sensitivity_map50": 0.0027405318063837836,
+        "sensitivity_map": 0.0019228678545499256,
+        "sensitivity_small": 0.0015837921485961637,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.006624396773303509,
+          "drone": -0.001143333160535831
+        }
+      },
+      "8": {
+        "layer_name": "model.5.conv",
+        "bits": 8,
+        "map50": 0.841699441160044,
+        "map": 0.4275665741797806,
+        "ap_small": 0.37179252972368826,
+        "per_class_ap50": {
+          "bird": 0.7275486145178094,
+          "drone": 0.9558502678022787
+        },
+        "confusion_metrics": {},
+        "param_count": 147456,
+        "sensitivity_map50": -0.00046875881262842256,
+        "sensitivity_map": -0.00015278585809769263,
+        "sensitivity_small": 0.0005302368799278145,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0009542729447535869,
+          "drone": 1.6755319496741805e-05
+        }
+      }
+    },
+    "model.6.cv1.conv": {
+      "4": {
+        "layer_name": "model.6.cv1.conv",
+        "bits": 4,
+        "map50": 0.8392800364329831,
+        "map": 0.4267359737773348,
+        "ap_small": 0.37072559416916295,
+        "per_class_ap50": {
+          "bird": 0.7236079203298805,
+          "drone": 0.9549521525360856
+        },
+        "confusion_metrics": {},
+        "param_count": 16384,
+        "sensitivity_map50": 0.0019506459144325028,
+        "sensitivity_map": 0.0006778145443481209,
+        "sensitivity_small": 0.0015971724344531202,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0029864212431752746,
+          "drone": 0.000914870585689842
+        }
+      },
+      "8": {
+        "layer_name": "model.6.cv1.conv",
+        "bits": 8,
+        "map50": 0.841232082800732,
+        "map": 0.4274276637656117,
+        "ap_small": 0.37254821427819157,
+        "per_class_ap50": {
+          "bird": 0.7266153476254794,
+          "drone": 0.9558488179759848
+        },
+        "confusion_metrics": {},
+        "param_count": 16384,
+        "sensitivity_map50": -1.400453316424688e-06,
+        "sensitivity_map": -1.3875443928779152e-05,
+        "sensitivity_small": -0.0002254476745754963,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -2.1006052423611088e-05,
+          "drone": 1.820514579065069e-05
+        }
+      }
+    },
+    "model.6.cv2.conv": {
+      "4": {
+        "layer_name": "model.6.cv2.conv",
+        "bits": 4,
+        "map50": 0.8434468200915618,
+        "map": 0.4285975242565058,
+        "ap_small": 0.36805136242956416,
+        "per_class_ap50": {
+          "bird": 0.7307592170711603,
+          "drone": 0.9561344231119633
+        },
+        "confusion_metrics": {},
+        "param_count": 24576,
+        "sensitivity_map50": -0.002216137744146196,
+        "sensitivity_map": -0.0011837359348229048,
+        "sensitivity_small": 0.004271404174051918,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.004164875498104514,
+          "drone": -0.00026739999018787763
+        }
+      },
+      "8": {
+        "layer_name": "model.6.cv2.conv",
+        "bits": 8,
+        "map50": 0.841258504271349,
+        "map": 0.4273021508101805,
+        "ap_small": 0.3719561900299244,
+        "per_class_ap50": {
+          "bird": 0.7266183949688163,
+          "drone": 0.9558986135738816
+        },
+        "confusion_metrics": {},
+        "param_count": 24576,
+        "sensitivity_map50": -2.7821923933357695e-05,
+        "sensitivity_map": 0.00011163751150239376,
+        "sensitivity_small": 0.0003665765736916571,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -2.4053395760503804e-05,
+          "drone": -3.1590452106211586e-05
+        }
+      }
+    },
+    "model.6.m.0.cv1.conv": {
+      "4": {
+        "layer_name": "model.6.m.0.cv1.conv",
+        "bits": 4,
+        "map50": 0.8413504538101657,
+        "map": 0.42669472064997194,
+        "ap_small": 0.3712902428493905,
+        "per_class_ap50": {
+          "bird": 0.7280835992444832,
+          "drone": 0.9546173083758482
+        },
+        "confusion_metrics": {},
+        "param_count": 2048,
+        "sensitivity_map50": -0.00011977146275010675,
+        "sensitivity_map": 0.0007190676717109823,
+        "sensitivity_small": 0.0010325237542255783,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0014892576714273797,
+          "drone": 0.0012497147459271662
+        }
+      },
+      "8": {
+        "layer_name": "model.6.m.0.cv1.conv",
+        "bits": 8,
+        "map50": 0.8412465528221466,
+        "map": 0.4272897707479724,
+        "ap_small": 0.3723231868524909,
+        "per_class_ap50": {
+          "bird": 0.7266199877009659,
+          "drone": 0.9558731179433272
+        },
+        "confusion_metrics": {},
+        "param_count": 2048,
+        "sensitivity_map50": -1.5870474730950157e-05,
+        "sensitivity_map": 0.00012401757371049982,
+        "sensitivity_small": -4.202488748106248e-07,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -2.5646127910117222e-05,
+          "drone": -6.094821551783092e-06
+        }
+      }
+    },
+    "model.6.m.0.cv2.conv": {
+      "4": {
+        "layer_name": "model.6.m.0.cv2.conv",
+        "bits": 4,
+        "map50": 0.8411642616725284,
+        "map": 0.42691965427240736,
+        "ap_small": 0.37235562758033813,
+        "per_class_ap50": {
+          "bird": 0.726520814342715,
+          "drone": 0.9558077090023419
+        },
+        "confusion_metrics": {},
+        "param_count": 2048,
+        "sensitivity_map50": 6.642067488715764e-05,
+        "sensitivity_map": 0.000494134049275563,
+        "sensitivity_small": -3.286097672206001e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 7.352723034081965e-05,
+          "drone": 5.931411943349563e-05
+        }
+      },
+      "8": {
+        "layer_name": "model.6.m.0.cv2.conv",
+        "bits": 8,
+        "map50": 0.8412474779077017,
+        "map": 0.42740775879071113,
+        "ap_small": 0.37229849199793497,
+        "per_class_ap50": {
+          "bird": 0.7266153712123918,
+          "drone": 0.9558795846030116
+        },
+        "confusion_metrics": {},
+        "param_count": 2048,
+        "sensitivity_map50": -1.679556028610918e-05,
+        "sensitivity_map": 6.0295309717850465e-06,
+        "sensitivity_small": 2.4274605681107175e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -2.10296393360343e-05,
+          "drone": -1.2561481236184058e-05
+        }
+      }
+    },
+    "model.6.m.0.cv3.conv": {
+      "4": {
+        "layer_name": "model.6.m.0.cv3.conv",
+        "bits": 4,
+        "map50": 0.8408877360834579,
+        "map": 0.4266672147935269,
+        "ap_small": 0.3731762507609897,
+        "per_class_ap50": {
+          "bird": 0.7259655874104637,
+          "drone": 0.9558098847564522
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": 0.00034294626395769967,
+        "sensitivity_map": 0.0007465735281559915,
+        "sensitivity_small": -0.0008534841573736296,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0006287541625921156,
+          "drone": 5.7138365323172735e-05
+        }
+      },
+      "8": {
+        "layer_name": "model.6.m.0.cv3.conv",
+        "bits": 8,
+        "map50": 0.8413022690315246,
+        "map": 0.4272823132957703,
+        "ap_small": 0.37269204694215297,
+        "per_class_ap50": {
+          "bird": 0.7267042154620599,
+          "drone": 0.9559003226009892
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": -7.158668410900404e-05,
+        "sensitivity_map": 0.0001314750259125974,
+        "sensitivity_small": -0.00036928033853689257,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00010987388900407513,
+          "drone": -3.3299479213821925e-05
+        }
+      }
+    },
+    "model.6.m.0.m.0.cv1.conv": {
+      "4": {
+        "layer_name": "model.6.m.0.m.0.cv1.conv",
+        "bits": 4,
+        "map50": 0.8413638249008699,
+        "map": 0.4278816563000614,
+        "ap_small": 0.37249531719325046,
+        "per_class_ap50": {
+          "bird": 0.7267501683954707,
+          "drone": 0.955977481406269
+        },
+        "confusion_metrics": {},
+        "param_count": 9216,
+        "sensitivity_map50": -0.00013314255345431292,
+        "sensitivity_map": -0.0004678679783785,
+        "sensitivity_small": -0.0001725505896343904,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.000155826822414884,
+          "drone": -0.00011045828449363082
+        }
+      },
+      "8": {
+        "layer_name": "model.6.m.0.m.0.cv1.conv",
+        "bits": 8,
+        "map50": 0.8412376607411913,
+        "map": 0.42732912835029824,
+        "ap_small": 0.3723052355433394,
+        "per_class_ap50": {
+          "bird": 0.726653656449318,
+          "drone": 0.9558216650330648
+        },
+        "confusion_metrics": {},
+        "param_count": 9216,
+        "sensitivity_map50": -6.978393775725067e-06,
+        "sensitivity_map": 8.465997138468184e-05,
+        "sensitivity_small": 1.7531060276687604e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -5.931487626220644e-05,
+          "drone": 4.5358088710645283e-05
+        }
+      }
+    },
+    "model.6.m.0.m.0.cv2.conv": {
+      "4": {
+        "layer_name": "model.6.m.0.m.0.cv2.conv",
+        "bits": 4,
+        "map50": 0.8422034839717473,
+        "map": 0.42736415474799366,
+        "ap_small": 0.3710014398299509,
+        "per_class_ap50": {
+          "bird": 0.7279982681621193,
+          "drone": 0.9564086997813752
+        },
+        "confusion_metrics": {},
+        "param_count": 9216,
+        "sensitivity_map50": -0.0009728016243316651,
+        "sensitivity_map": 4.963357368925614e-05,
+        "sensitivity_small": 0.001321326773665199,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00140392658906352,
+          "drone": -0.0005416766595998102
+        }
+      },
+      "8": {
+        "layer_name": "model.6.m.0.m.0.cv2.conv",
+        "bits": 8,
+        "map50": 0.8412276434539698,
+        "map": 0.42733061566899744,
+        "ap_small": 0.37231240754274075,
+        "per_class_ap50": {
+          "bird": 0.7265634467535094,
+          "drone": 0.9558918401544302
+        },
+        "confusion_metrics": {},
+        "param_count": 9216,
+        "sensitivity_map50": 3.0388934457725725e-06,
+        "sensitivity_map": 8.317265268548146e-05,
+        "sensitivity_small": 1.0359060875320125e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 3.089481954643425e-05,
+          "drone": -2.4817032654778082e-05
+        }
+      }
+    },
+    "model.6.m.0.m.1.cv1.conv": {
+      "4": {
+        "layer_name": "model.6.m.0.m.1.cv1.conv",
+        "bits": 4,
+        "map50": 0.8381522458134714,
+        "map": 0.42662066815273053,
+        "ap_small": 0.3692549127466244,
+        "per_class_ap50": {
+          "bird": 0.7218429707544092,
+          "drone": 0.9544615208725336
+        },
+        "confusion_metrics": {},
+        "param_count": 9216,
+        "sensitivity_map50": 0.00307843653394424,
+        "sensitivity_map": 0.0007931201689523881,
+        "sensitivity_small": 0.0030678538569916536,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0047513708186466275,
+          "drone": 0.0014055022492418523
+        }
+      },
+      "8": {
+        "layer_name": "model.6.m.0.m.1.cv1.conv",
+        "bits": 8,
+        "map50": 0.8412074804683674,
+        "map": 0.42730218807852377,
+        "ap_small": 0.3723090914029859,
+        "per_class_ap50": {
+          "bird": 0.7265319752871189,
+          "drone": 0.9558829856496158
+        },
+        "confusion_metrics": {},
+        "param_count": 9216,
+        "sensitivity_map50": 2.3201879048251328e-05,
+        "sensitivity_map": 0.00011160024315914896,
+        "sensitivity_small": 1.3675200630169915e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 6.236628593692117e-05,
+          "drone": -1.5962527840418517e-05
+        }
+      }
+    },
+    "model.6.m.0.m.1.cv2.conv": {
+      "4": {
+        "layer_name": "model.6.m.0.m.1.cv2.conv",
+        "bits": 4,
+        "map50": 0.8422638729067705,
+        "map": 0.42688052893053136,
+        "ap_small": 0.37289291363544413,
+        "per_class_ap50": {
+          "bird": 0.7287971942117755,
+          "drone": 0.9557305516017656
+        },
+        "confusion_metrics": {},
+        "param_count": 9216,
+        "sensitivity_map50": -0.0010331905593549129,
+        "sensitivity_map": 0.0005332593911515637,
+        "sensitivity_small": -0.000570147031828061,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0022028526387196656,
+          "drone": 0.00013647152000983986
+        }
+      },
+      "8": {
+        "layer_name": "model.6.m.0.m.1.cv2.conv",
+        "bits": 8,
+        "map50": 0.8412435066523913,
+        "map": 0.4273789476870391,
+        "ap_small": 0.3722684988431086,
+        "per_class_ap50": {
+          "bird": 0.7266308589412654,
+          "drone": 0.9558561543635171
+        },
+        "confusion_metrics": {},
+        "param_count": 9216,
+        "sensitivity_map50": -1.2824304975733725e-05,
+        "sensitivity_map": 3.4840634643817925e-05,
+        "sensitivity_small": 5.426776050748705e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.651736820964313e-05,
+          "drone": 1.0868758258286704e-05
+        }
+      }
+    },
+    "model.7.conv": {
+      "4": {
+        "layer_name": "model.7.conv",
+        "bits": 4,
+        "map50": 0.8415154703221268,
+        "map": 0.42688828562794107,
+        "ap_small": 0.3693333408675219,
+        "per_class_ap50": {
+          "bird": 0.7270891954911705,
+          "drone": 0.9559417451530832
+        },
+        "confusion_metrics": {},
+        "param_count": 294912,
+        "sensitivity_map50": -0.0002847879747112092,
+        "sensitivity_map": 0.0005255026937418528,
+        "sensitivity_small": 0.0029894257360941756,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0004948539181146572,
+          "drone": -7.472203130776123e-05
+        }
+      },
+      "8": {
+        "layer_name": "model.7.conv",
+        "bits": 8,
+        "map50": 0.8412481354672543,
+        "map": 0.4273527957351762,
+        "ap_small": 0.3722926860060892,
+        "per_class_ap50": {
+          "bird": 0.7266247870192977,
+          "drone": 0.9558714839152109
+        },
+        "confusion_metrics": {},
+        "param_count": 294912,
+        "sensitivity_map50": -1.745311983869513e-05,
+        "sensitivity_map": 6.099258650671402e-05,
+        "sensitivity_small": 3.0080597526849218e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.0445446241866847e-05,
+          "drone": -4.4607934355234136e-06
+        }
+      }
+    },
+    "model.8.cv1.conv": {
+      "4": {
+        "layer_name": "model.8.cv1.conv",
+        "bits": 4,
+        "map50": 0.8402813316811211,
+        "map": 0.4276340458639626,
+        "ap_small": 0.37347925467347265,
+        "per_class_ap50": {
+          "bird": 0.7248560769056575,
+          "drone": 0.9557065864565848
+        },
+        "confusion_metrics": {},
+        "param_count": 65536,
+        "sensitivity_map50": 0.000949350666294535,
+        "sensitivity_map": -0.0002202575422796671,
+        "sensitivity_small": -0.001156488069856576,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0017382646673983482,
+          "drone": 0.00016043666519061084
+        }
+      },
+      "8": {
+        "layer_name": "model.8.cv1.conv",
+        "bits": 8,
+        "map50": 0.8412308494732742,
+        "map": 0.4273961288794891,
+        "ap_small": 0.3723307941320383,
+        "per_class_ap50": {
+          "bird": 0.7265724339433237,
+          "drone": 0.9558892650032247
+        },
+        "confusion_metrics": {},
+        "param_count": 65536,
+        "sensitivity_map50": -1.6712585859668394e-07,
+        "sensitivity_map": 1.7659442193840302e-05,
+        "sensitivity_small": -8.027528422216434e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 2.1907629732087486e-05,
+          "drone": -2.2241881449280854e-05
+        }
+      }
+    },
+    "model.8.cv2.conv": {
+      "4": {
+        "layer_name": "model.8.cv2.conv",
+        "bits": 4,
+        "map50": 0.8421717445384833,
+        "map": 0.42701281140890385,
+        "ap_small": 0.3723482002315177,
+        "per_class_ap50": {
+          "bird": 0.7284793446668834,
+          "drone": 0.9558641444100832
+        },
+        "confusion_metrics": {},
+        "param_count": 98304,
+        "sensitivity_map50": -0.0009410621910677097,
+        "sensitivity_map": 0.0004009769127790719,
+        "sensitivity_small": -2.5433627901638722e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.001885003093827553,
+          "drone": 2.8787116922446288e-06
+        }
+      },
+      "8": {
+        "layer_name": "model.8.cv2.conv",
+        "bits": 8,
+        "map50": 0.8412435113280423,
+        "map": 0.4274055153773787,
+        "ap_small": 0.37236835390000583,
+        "per_class_ap50": {
+          "bird": 0.7266219162066931,
+          "drone": 0.9558651064493915
+        },
+        "confusion_metrics": {},
+        "param_count": 98304,
+        "sensitivity_map50": -1.2828980626711228e-05,
+        "sensitivity_map": 8.272944304221763e-06,
+        "sensitivity_small": -4.558729638975967e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -2.7574633637339474e-05,
+          "drone": 1.9166723839170174e-06
+        }
+      }
+    },
+    "model.8.m.0.cv1.conv": {
+      "4": {
+        "layer_name": "model.8.m.0.cv1.conv",
+        "bits": 4,
+        "map50": 0.8411475998538835,
+        "map": 0.42722120802829255,
+        "ap_small": 0.3731940654829406,
+        "per_class_ap50": {
+          "bird": 0.7264592139739494,
+          "drone": 0.9558359857338178
+        },
+        "confusion_metrics": {},
+        "param_count": 8192,
+        "sensitivity_map50": 8.308249353206065e-05,
+        "sensitivity_map": 0.0001925802933903653,
+        "sensitivity_small": -0.0008712988793245224,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.00013512759910638827,
+          "drone": 3.103738795762201e-05
+        }
+      },
+      "8": {
+        "layer_name": "model.8.m.0.cv1.conv",
+        "bits": 8,
+        "map50": 0.8412491037120937,
+        "map": 0.4274103795456683,
+        "ap_small": 0.37229734794966873,
+        "per_class_ap50": {
+          "bird": 0.7266136033683248,
+          "drone": 0.9558846040558625
+        },
+        "confusion_metrics": {},
+        "param_count": 8192,
+        "sensitivity_map50": -1.842136467811173e-05,
+        "sensitivity_map": 3.408776014623971e-06,
+        "sensitivity_small": 2.5418653947339998e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -1.926179526900995e-05,
+          "drone": -1.7580934087102484e-05
+        }
+      }
+    },
+    "model.8.m.0.cv2.conv": {
+      "4": {
+        "layer_name": "model.8.m.0.cv2.conv",
+        "bits": 4,
+        "map50": 0.8412128286463649,
+        "map": 0.42735734330069686,
+        "ap_small": 0.37231305177486773,
+        "per_class_ap50": {
+          "bird": 0.7265883525819162,
+          "drone": 0.9558373047108137
+        },
+        "confusion_metrics": {},
+        "param_count": 8192,
+        "sensitivity_map50": 1.7853701050674076e-05,
+        "sensitivity_map": 5.64450209860623e-05,
+        "sensitivity_small": 9.71482874834173e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 5.988991139571631e-06,
+          "drone": 2.9718410961665498e-05
+        }
+      },
+      "8": {
+        "layer_name": "model.8.m.0.cv2.conv",
+        "bits": 8,
+        "map50": 0.8412391040171145,
+        "map": 0.42741382187705745,
+        "ap_small": 0.3723227666036161,
+        "per_class_ap50": {
+          "bird": 0.7265986234312174,
+          "drone": 0.9558795846030116
+        },
+        "confusion_metrics": {},
+        "param_count": 8192,
+        "sensitivity_map50": -8.421669698943646e-06,
+        "sensitivity_map": -3.3555374534532945e-08,
+        "sensitivity_small": 0.0,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -4.281858161592211e-06,
+          "drone": -1.2561481236184058e-05
+        }
+      }
+    },
+    "model.8.m.0.cv3.conv": {
+      "4": {
+        "layer_name": "model.8.m.0.cv3.conv",
+        "bits": 4,
+        "map50": 0.8422132449330606,
+        "map": 0.42727606032334686,
+        "ap_small": 0.37358075859615025,
+        "per_class_ap50": {
+          "bird": 0.7286347343061802,
+          "drone": 0.955791755559941
+        },
+        "confusion_metrics": {},
+        "param_count": 16384,
+        "sensitivity_map50": -0.000982562585644997,
+        "sensitivity_map": 0.00013772799833605687,
+        "sensitivity_small": -0.0012579919925341798,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0020403927331243965,
+          "drone": 7.526756183440231e-05
+        }
+      },
+      "8": {
+        "layer_name": "model.8.m.0.cv3.conv",
+        "bits": 8,
+        "map50": 0.8412687610894342,
+        "map": 0.4274244541554725,
+        "ap_small": 0.3723034305161671,
+        "per_class_ap50": {
+          "bird": 0.726645164176928,
+          "drone": 0.9558923580019403
+        },
+        "confusion_metrics": {},
+        "param_count": 16384,
+        "sensitivity_map50": -3.8078742018554657e-05,
+        "sensitivity_map": -1.066583378955821e-05,
+        "sensitivity_small": 1.9336087448973416e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -5.0822603872235916e-05,
+          "drone": -2.5334880164873397e-05
+        }
+      }
+    },
+    "model.8.m.0.m.0.cv1.conv": {
+      "4": {
+        "layer_name": "model.8.m.0.m.0.cv1.conv",
+        "bits": 4,
+        "map50": 0.8413343048131012,
+        "map": 0.4274481331626978,
+        "ap_small": 0.3724172145118577,
+        "per_class_ap50": {
+          "bird": 0.7267809277375971,
+          "drone": 0.9558876818886054
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": -0.00010362246568562661,
+        "sensitivity_map": -3.434484101488833e-05,
+        "sensitivity_small": -9.444790824164606e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0001865861645412581,
+          "drone": -2.0658766829995123e-05
+        }
+      },
+      "8": {
+        "layer_name": "model.8.m.0.m.0.cv1.conv",
+        "bits": 8,
+        "map50": 0.8412498528280852,
+        "map": 0.42734441542095947,
+        "ap_small": 0.37232384664466184,
+        "per_class_ap50": {
+          "bird": 0.7266168457739255,
+          "drone": 0.955882859882245
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": -1.9170480669572498e-05,
+        "sensitivity_map": 6.937290072345226e-05,
+        "sensitivity_small": -1.0800410457645349e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -2.2504200869688518e-05,
+          "drone": -1.58367604695675e-05
+        }
+      }
+    },
+    "model.8.m.0.m.0.cv2.conv": {
+      "4": {
+        "layer_name": "model.8.m.0.m.0.cv2.conv",
+        "bits": 4,
+        "map50": 0.8413307151847527,
+        "map": 0.42731452675740567,
+        "ap_small": 0.3738714134410957,
+        "per_class_ap50": {
+          "bird": 0.7268816128509374,
+          "drone": 0.955779817518568
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": -0.0001000328373370607,
+        "sensitivity_map": 9.926156427725319e-05,
+        "sensitivity_small": -0.001548646837479628,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00028727127788164,
+          "drone": 8.720560320740756e-05
+        }
+      },
+      "8": {
+        "layer_name": "model.8.m.0.m.0.cv2.conv",
+        "bits": 8,
+        "map50": 0.8412222950594903,
+        "map": 0.4274031326649819,
+        "ap_small": 0.37230832736300523,
+        "per_class_ap50": {
+          "bird": 0.7265781510692181,
+          "drone": 0.9558664390497627
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": 8.387287925293307e-06,
+        "sensitivity_map": 1.065565670099744e-05,
+        "sensitivity_small": 1.4439240610841786e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 1.6190503837720804e-05,
+          "drone": 5.840720127547883e-07
+        }
+      }
+    },
+    "model.8.m.0.m.1.cv1.conv": {
+      "4": {
+        "layer_name": "model.8.m.0.m.1.cv1.conv",
+        "bits": 4,
+        "map50": 0.8411418561543735,
+        "map": 0.4270586508969467,
+        "ap_small": 0.3717031698354239,
+        "per_class_ap50": {
+          "bird": 0.7267160294239169,
+          "drone": 0.9555676828848302
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": 8.882619304206862e-05,
+        "sensitivity_map": 0.00035513742473619603,
+        "sensitivity_small": 0.0006195967681921766,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00012168785086108524,
+          "drone": 0.0002993402369452225
+        }
+      },
+      "8": {
+        "layer_name": "model.8.m.0.m.1.cv1.conv",
+        "bits": 8,
+        "map50": 0.8412368062517325,
+        "map": 0.42740464276967394,
+        "ap_small": 0.3723263639729691,
+        "per_class_ap50": {
+          "bird": 0.7265972412525248,
+          "drone": 0.9558763712509402
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": -6.123904316868156e-06,
+        "sensitivity_map": 9.14555200898226e-06,
+        "sensitivity_small": -3.597369353014468e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -2.8996794689817307e-06,
+          "drone": -9.348129164754582e-06
+        }
+      }
+    },
+    "model.8.m.0.m.1.cv2.conv": {
+      "4": {
+        "layer_name": "model.8.m.0.m.1.cv2.conv",
+        "bits": 4,
+        "map50": 0.8415300853428356,
+        "map": 0.42741325076017633,
+        "ap_small": 0.3719346441412679,
+        "per_class_ap50": {
+          "bird": 0.7270855147294107,
+          "drone": 0.9559746559562604
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": -0.00029940299541997284,
+        "sensitivity_map": 5.375615065861261e-07,
+        "sensitivity_small": 0.0003881224623481505,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0004911731563549404,
+          "drone": -0.00010763283448500527
+        }
+      },
+      "8": {
+        "layer_name": "model.8.m.0.m.1.cv2.conv",
+        "bits": 8,
+        "map50": 0.8412396613107892,
+        "map": 0.4274005695855211,
+        "ap_small": 0.3723110516351894,
+        "per_class_ap50": {
+          "bird": 0.7266139898280515,
+          "drone": 0.9558653327935269
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": -8.978963373595938e-06,
+        "sensitivity_map": 1.321873616183522e-05,
+        "sensitivity_small": 1.1714968426668193e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -1.9648254995674463e-05,
+          "drone": 1.6903282484825866e-06
+        }
+      }
+    },
+    "model.9.cv1.conv": {
+      "4": {
+        "layer_name": "model.9.cv1.conv",
+        "bits": 4,
+        "map50": 0.8417223686461373,
+        "map": 0.4271588523700018,
+        "ap_small": 0.37296735501304756,
+        "per_class_ap50": {
+          "bird": 0.7275103719739356,
+          "drone": 0.9559343653183389
+        },
+        "confusion_metrics": {},
+        "param_count": 32768,
+        "sensitivity_map50": -0.0004916862987216497,
+        "sensitivity_map": 0.0002549359516811345,
+        "sensitivity_small": -0.0006445884094314902,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0009160304008798414,
+          "drone": -6.734219656345797e-05
+        }
+      },
+      "8": {
+        "layer_name": "model.9.cv1.conv",
+        "bits": 8,
+        "map50": 0.8412732780202832,
+        "map": 0.42735938006480756,
+        "ap_small": 0.372360885946313,
+        "per_class_ap50": {
+          "bird": 0.7266912083548964,
+          "drone": 0.9558553476856699
+        },
+        "confusion_metrics": {},
+        "param_count": 32768,
+        "sensitivity_map50": -4.25956728675736e-05,
+        "sensitivity_map": 5.4408256875360106e-05,
+        "sensitivity_small": -3.8119342696929515e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -9.686678184062103e-05,
+          "drone": 1.1675436105473835e-05
+        }
+      }
+    },
+    "model.9.cv2.conv": {
+      "4": {
+        "layer_name": "model.9.cv2.conv",
+        "bits": 4,
+        "map50": 0.8357713455250212,
+        "map": 0.4241592631344961,
+        "ap_small": 0.3714973129498072,
+        "per_class_ap50": {
+          "bird": 0.7158388930800772,
+          "drone": 0.9557037979699652
+        },
+        "confusion_metrics": {},
+        "param_count": 131072,
+        "sensitivity_map50": 0.005459336822394412,
+        "sensitivity_map": 0.0032545251871868297,
+        "sensitivity_small": 0.0008254536538088719,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.010755448492978603,
+          "drone": 0.00016322515181022013
+        }
+      },
+      "8": {
+        "layer_name": "model.9.cv2.conv",
+        "bits": 8,
+        "map50": 0.8413536764461343,
+        "map": 0.42719949537426904,
+        "ap_small": 0.3722769665376841,
+        "per_class_ap50": {
+          "bird": 0.7267227732610414,
+          "drone": 0.9559845796312273
+        },
+        "confusion_metrics": {},
+        "param_count": 131072,
+        "sensitivity_map50": -0.00012299409871874278,
+        "sensitivity_map": 0.0002142929474138744,
+        "sensitivity_small": 4.580006593196684e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00012843168798559734,
+          "drone": -0.00011755650945188822
+        }
+      }
+    },
+    "model.10.cv1.conv": {
+      "4": {
+        "layer_name": "model.10.cv1.conv",
+        "bits": 4,
+        "map50": 0.8357843865171368,
+        "map": 0.42545969915332515,
+        "ap_small": 0.37199318352888605,
+        "per_class_ap50": {
+          "bird": 0.7155655585600692,
+          "drone": 0.9560032144742046
+        },
+        "confusion_metrics": {},
+        "param_count": 65536,
+        "sensitivity_map50": 0.00544629583027878,
+        "sensitivity_map": 0.0019540891683577644,
+        "sensitivity_small": 0.00032958307473002213,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.011028783012986598,
+          "drone": -0.00013619135242914915
+        }
+      },
+      "8": {
+        "layer_name": "model.10.cv1.conv",
+        "bits": 8,
+        "map50": 0.8416113682532718,
+        "map": 0.4272905939388706,
+        "ap_small": 0.3732651084398807,
+        "per_class_ap50": {
+          "bird": 0.7273697351115092,
+          "drone": 0.9558530013950345
+        },
+        "confusion_metrics": {},
+        "param_count": 65536,
+        "sensitivity_map50": -0.0003806859058561596,
+        "sensitivity_map": 0.00012319438281233053,
+        "sensitivity_small": -0.0009423418362646263,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0007753935384533506,
+          "drone": 1.4021726740920393e-05
+        }
+      }
+    },
+    "model.10.cv2.conv": {
+      "4": {
+        "layer_name": "model.10.cv2.conv",
+        "bits": 4,
+        "map50": 0.841519139416359,
+        "map": 0.42639258127204105,
+        "ap_small": 0.3720194192656072,
+        "per_class_ap50": {
+          "bird": 0.7282464574817049,
+          "drone": 0.9547918213510131
+        },
+        "confusion_metrics": {},
+        "param_count": 65536,
+        "sensitivity_map50": -0.00028845706894342626,
+        "sensitivity_map": 0.0010212070496418701,
+        "sensitivity_small": 0.0003033473380088525,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00165211590864911,
+          "drone": 0.0010752017707622574
+        }
+      },
+      "8": {
+        "layer_name": "model.10.cv2.conv",
+        "bits": 8,
+        "map50": 0.8412535505786912,
+        "map": 0.427396622333126,
+        "ap_small": 0.3722658945747421,
+        "per_class_ap50": {
+          "bird": 0.7266211385842962,
+          "drone": 0.9558859625730862
+        },
+        "confusion_metrics": {},
+        "param_count": 65536,
+        "sensitivity_map50": -2.286823127561899e-05,
+        "sensitivity_map": 1.716598855694418e-05,
+        "sensitivity_small": 5.687202887399989e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -2.6797011240420332e-05,
+          "drone": -1.8939451310817645e-05
+        }
+      }
+    },
+    "model.10.m.0.attn.qkv.conv": {
+      "4": {
+        "layer_name": "model.10.m.0.attn.qkv.conv",
+        "bits": 4,
+        "map50": 0.8424010606479568,
+        "map": 0.42785820491995485,
+        "ap_small": 0.3731731827086602,
+        "per_class_ap50": {
+          "bird": 0.7290764739050529,
+          "drone": 0.9557256473908609
+        },
+        "confusion_metrics": {},
+        "param_count": 32768,
+        "sensitivity_map50": -0.0011703783005412305,
+        "sensitivity_map": -0.000444416598271935,
+        "sensitivity_small": -0.000850416105044105,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0024821323319971222,
+          "drone": 0.00014137573091455025
+        }
+      },
+      "8": {
+        "layer_name": "model.10.m.0.attn.qkv.conv",
+        "bits": 8,
+        "map50": 0.8412248590277819,
+        "map": 0.42740479461438785,
+        "ap_small": 0.37233520330549713,
+        "per_class_ap50": {
+          "bird": 0.7266161190159177,
+          "drone": 0.955833599039646
+        },
+        "confusion_metrics": {},
+        "param_count": 32768,
+        "sensitivity_map50": 5.823319633724289e-06,
+        "sensitivity_map": 8.993707295068543e-06,
+        "sensitivity_small": -1.2436701881057832e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -2.177744286191441e-05,
+          "drone": 3.3424082129362986e-05
+        }
+      }
+    },
+    "model.10.m.0.attn.proj.conv": {
+      "4": {
+        "layer_name": "model.10.m.0.attn.proj.conv",
+        "bits": 4,
+        "map50": 0.8413924918541724,
+        "map": 0.4272190158034195,
+        "ap_small": 0.3736734581918292,
+        "per_class_ap50": {
+          "bird": 0.7269306505718128,
+          "drone": 0.9558543331365321
+        },
+        "confusion_metrics": {},
+        "param_count": 16384,
+        "sensitivity_map50": -0.00016180950675681594,
+        "sensitivity_map": 0.00019477251826344189,
+        "sensitivity_small": -0.0013506915882131043,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0003363089987570289,
+          "drone": 1.2689985243286017e-05
+        }
+      },
+      "8": {
+        "layer_name": "model.10.m.0.attn.proj.conv",
+        "bits": 8,
+        "map50": 0.8412517675667592,
+        "map": 0.42736527581730854,
+        "ap_small": 0.3722880592988858,
+        "per_class_ap50": {
+          "bird": 0.7266067372205963,
+          "drone": 0.955896797912922
+        },
+        "confusion_metrics": {},
+        "param_count": 16384,
+        "sensitivity_map50": -2.1085219343630612e-05,
+        "sensitivity_map": 4.851250437437615e-05,
+        "sensitivity_small": 3.470730473026373e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -1.2395647540519583e-05,
+          "drone": -2.977479114663062e-05
+        }
+      }
+    },
+    "model.10.m.0.attn.pe.conv": {
+      "4": {
+        "layer_name": "model.10.m.0.attn.pe.conv",
+        "bits": 4,
+        "map50": 0.843309194077879,
+        "map": 0.4278201107800796,
+        "ap_small": 0.37376555881474427,
+        "per_class_ap50": {
+          "bird": 0.7305729951505364,
+          "drone": 0.9560453930052214
+        },
+        "confusion_metrics": {},
+        "param_count": 1152,
+        "sensitivity_map50": -0.0020785117304633616,
+        "sensitivity_map": -0.0004063224583966685,
+        "sensitivity_small": -0.0014427922111281966,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0039786535774806175,
+          "drone": -0.00017836988344599458
+        }
+      },
+      "8": {
+        "layer_name": "model.10.m.0.attn.pe.conv",
+        "bits": 8,
+        "map50": 0.8412775749051314,
+        "map": 0.42733717294076995,
+        "ap_small": 0.3722968860777065,
+        "per_class_ap50": {
+          "bird": 0.726647174871624,
+          "drone": 0.9559079749386389
+        },
+        "confusion_metrics": {},
+        "param_count": 1152,
+        "sensitivity_map50": -4.6892557715838556e-05,
+        "sensitivity_map": 7.661538091296993e-05,
+        "sensitivity_small": 2.5880525909571794e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -5.283329856820007e-05,
+          "drone": -4.095181686347704e-05
+        }
+      }
+    },
+    "model.10.m.0.ffn.0.conv": {
+      "4": {
+        "layer_name": "model.10.m.0.ffn.0.conv",
+        "bits": 4,
+        "map50": 0.8412344996066347,
+        "map": 0.4269967441965582,
+        "ap_small": 0.3722577770338834,
+        "per_class_ap50": {
+          "bird": 0.726562752881848,
+          "drone": 0.9559062463314213
+        },
+        "confusion_metrics": {},
+        "param_count": 32768,
+        "sensitivity_map50": -3.8172592190521826e-06,
+        "sensitivity_map": 0.00041704412512472144,
+        "sensitivity_small": 6.498956973266523e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 3.1588691207784514e-05,
+          "drone": -3.922320964588888e-05
+        }
+      },
+      "8": {
+        "layer_name": "model.10.m.0.ffn.0.conv",
+        "bits": 8,
+        "map50": 0.8412518589734828,
+        "map": 0.4274090581034119,
+        "ap_small": 0.3723173157727049,
+        "per_class_ap50": {
+          "bird": 0.7266069200340435,
+          "drone": 0.955896797912922
+        },
+        "confusion_metrics": {},
+        "param_count": 32768,
+        "sensitivity_map50": -2.1176626067154203e-05,
+        "sensitivity_map": 4.730218271020714e-06,
+        "sensitivity_small": 5.45083091119114e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -1.2578460987677786e-05,
+          "drone": -2.977479114663062e-05
+        }
+      }
+    },
+    "model.10.m.0.ffn.1.conv": {
+      "4": {
+        "layer_name": "model.10.m.0.ffn.1.conv",
+        "bits": 4,
+        "map50": 0.8416092069876075,
+        "map": 0.42721006272884177,
+        "ap_small": 0.3723468899434508,
+        "per_class_ap50": {
+          "bird": 0.7274547420238149,
+          "drone": 0.9557636719514002
+        },
+        "confusion_metrics": {},
+        "param_count": 32768,
+        "sensitivity_map50": -0.0003785246401919462,
+        "sensitivity_map": 0.000203725592841153,
+        "sensitivity_small": -2.412333983470294e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0008604004507590801,
+          "drone": 0.0001033511703751877
+        }
+      },
+      "8": {
+        "layer_name": "model.10.m.0.ffn.1.conv",
+        "bits": 8,
+        "map50": 0.8412311927720684,
+        "map": 0.4274136127718555,
+        "ap_small": 0.37232395184705325,
+        "per_class_ap50": {
+          "bird": 0.7265953624223612,
+          "drone": 0.9558670231217754
+        },
+        "confusion_metrics": {},
+        "param_count": 32768,
+        "sensitivity_map50": -5.104246527665168e-07,
+        "sensitivity_map": 1.7554982739698133e-07,
+        "sensitivity_small": -1.1852434371739662e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -1.0208493054220114e-06,
+          "drone": 0.0
+        }
+      }
+    },
+    "model.13.cv1.conv": {
+      "4": {
+        "layer_name": "model.13.cv1.conv",
+        "bits": 4,
+        "map50": 0.8453095453091981,
+        "map": 0.4259713558527056,
+        "ap_small": 0.37032565064100686,
+        "per_class_ap50": {
+          "bird": 0.7338699580303185,
+          "drone": 0.9567491325880778
+        },
+        "confusion_metrics": {},
+        "param_count": 49152,
+        "sensitivity_map50": -0.004078862961782503,
+        "sensitivity_map": 0.001442432468977295,
+        "sensitivity_small": 0.0019971159626092083,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0072756164572627124,
+          "drone": -0.0008821094663024054
+        }
+      },
+      "8": {
+        "layer_name": "model.13.cv1.conv",
+        "bits": 8,
+        "map50": 0.8413117504113852,
+        "map": 0.42722780306486213,
+        "ap_small": 0.37232571041235446,
+        "per_class_ap50": {
+          "bird": 0.7267575709164087,
+          "drone": 0.9558659299063617
+        },
+        "confusion_metrics": {},
+        "param_count": 49152,
+        "sensitivity_map50": -8.106806396956934e-05,
+        "sensitivity_map": 0.00018598525682078648,
+        "sensitivity_small": -2.943808738387066e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00016322934335288863,
+          "drone": 1.0932154137499595e-06
+        }
+      }
+    },
+    "model.13.cv2.conv": {
+      "4": {
+        "layer_name": "model.13.cv2.conv",
+        "bits": 4,
+        "map50": 0.8394303102910319,
+        "map": 0.4260472051972111,
+        "ap_small": 0.3717356776795338,
+        "per_class_ap50": {
+          "bird": 0.7236809890366862,
+          "drone": 0.9551796315453777
+        },
+        "confusion_metrics": {},
+        "param_count": 24576,
+        "sensitivity_map50": 0.0018003720563837255,
+        "sensitivity_map": 0.0013665831244717985,
+        "sensitivity_small": 0.0005870889240822685,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0029133525363695956,
+          "drone": 0.0006873915763977445
+        }
+      },
+      "8": {
+        "layer_name": "model.13.cv2.conv",
+        "bits": 8,
+        "map50": 0.8416444033254209,
+        "map": 0.4271477486235707,
+        "ap_small": 0.37269236577732123,
+        "per_class_ap50": {
+          "bird": 0.7274276120798026,
+          "drone": 0.9558611945710391
+        },
+        "confusion_metrics": {},
+        "param_count": 24576,
+        "sensitivity_map50": -0.00041372097800529417,
+        "sensitivity_map": 0.0002660396981122304,
+        "sensitivity_small": -0.0003695991737051596,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0008332705067467527,
+          "drone": 5.828550736275417e-06
+        }
+      }
+    },
+    "model.13.m.0.cv1.conv": {
+      "4": {
+        "layer_name": "model.13.m.0.cv1.conv",
+        "bits": 4,
+        "map50": 0.8401839501537642,
+        "map": 0.42668889788642883,
+        "ap_small": 0.36951757490800047,
+        "per_class_ap50": {
+          "bird": 0.725066206758354,
+          "drone": 0.9553016935491745
+        },
+        "confusion_metrics": {},
+        "param_count": 18432,
+        "sensitivity_map50": 0.0010467321936513674,
+        "sensitivity_map": 0.0007248904352540886,
+        "sensitivity_small": 0.0028051916956156053,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0015281348147018203,
+          "drone": 0.0005653295726009144
+        }
+      },
+      "8": {
+        "layer_name": "model.13.m.0.cv1.conv",
+        "bits": 8,
+        "map50": 0.8412081328165388,
+        "map": 0.4273693401788491,
+        "ap_small": 0.37268653299823296,
+        "per_class_ap50": {
+          "bird": 0.7265956748822586,
+          "drone": 0.9558205907508189
+        },
+        "confusion_metrics": {},
+        "param_count": 18432,
+        "sensitivity_map50": 2.2549530876769808e-05,
+        "sensitivity_map": 4.4448142833830584e-05,
+        "sensitivity_small": -0.0003637663946168823,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -1.3333092028222637e-06,
+          "drone": 4.64323709564729e-05
+        }
+      }
+    },
+    "model.13.m.0.cv2.conv": {
+      "4": {
+        "layer_name": "model.13.m.0.cv2.conv",
+        "bits": 4,
+        "map50": 0.8383057161963052,
+        "map": 0.4260845251992447,
+        "ap_small": 0.37223650526809104,
+        "per_class_ap50": {
+          "bird": 0.7216407924630936,
+          "drone": 0.9549706399295167
+        },
+        "confusion_metrics": {},
+        "param_count": 18432,
+        "sensitivity_map50": 0.0029249661511103753,
+        "sensitivity_map": 0.0013292631224381957,
+        "sensitivity_small": 8.626133552502857e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.004953549109962152,
+          "drone": 0.0008963831922587095
+        }
+      },
+      "8": {
+        "layer_name": "model.13.m.0.cv2.conv",
+        "bits": 8,
+        "map50": 0.8412360667706111,
+        "map": 0.4272596472769621,
+        "ap_small": 0.37231787458962184,
+        "per_class_ap50": {
+          "bird": 0.7266007122984404,
+          "drone": 0.9558714212427819
+        },
+        "confusion_metrics": {},
+        "param_count": 18432,
+        "sensitivity_map50": -5.38442319553134e-06,
+        "sensitivity_map": 0.00015414104472083467,
+        "sensitivity_small": 4.892013994228783e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -6.370725384563514e-06,
+          "drone": -4.398121006499167e-06
+        }
+      }
+    },
+    "model.16.cv1.conv": {
+      "4": {
+        "layer_name": "model.16.cv1.conv",
+        "bits": 4,
+        "map50": 0.842019692808716,
+        "map": 0.42589094766502056,
+        "ap_small": 0.37002104689430687,
+        "per_class_ap50": {
+          "bird": 0.7277222778608139,
+          "drone": 0.9563171077566183
+        },
+        "confusion_metrics": {},
+        "param_count": 16384,
+        "sensitivity_map50": -0.0007890104613004212,
+        "sensitivity_map": 0.001522840656662361,
+        "sensitivity_small": 0.0023017197093092023,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0011279362877580912,
+          "drone": -0.0004500846348428622
+        }
+      },
+      "8": {
+        "layer_name": "model.16.cv1.conv",
+        "bits": 8,
+        "map50": 0.8414001429622717,
+        "map": 0.42714303234294004,
+        "ap_small": 0.37278572516589537,
+        "per_class_ap50": {
+          "bird": 0.7269137542667228,
+          "drone": 0.9558865316578207
+        },
+        "confusion_metrics": {},
+        "param_count": 16384,
+        "sensitivity_map50": -0.00016946061485612063,
+        "sensitivity_map": 0.00027075597874287594,
+        "sensitivity_small": -0.000462958562279292,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0003194126936669761,
+          "drone": -1.9508536045265146e-05
+        }
+      }
+    },
+    "model.16.cv2.conv": {
+      "4": {
+        "layer_name": "model.16.cv2.conv",
+        "bits": 4,
+        "map50": 0.8410813695236637,
+        "map": 0.4250306595471816,
+        "ap_small": 0.36180305098527465,
+        "per_class_ap50": {
+          "bird": 0.7260513339514247,
+          "drone": 0.9561114050959028
+        },
+        "confusion_metrics": {},
+        "param_count": 6144,
+        "sensitivity_map50": 0.00014931282375185706,
+        "sensitivity_map": 0.0023831287745013086,
+        "sensitivity_small": 0.010519715618341419,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0005430076216310642,
+          "drone": -0.0002443819741273501
+        }
+      },
+      "8": {
+        "layer_name": "model.16.cv2.conv",
+        "bits": 8,
+        "map50": 0.841975502976487,
+        "map": 0.42752373416178163,
+        "ap_small": 0.37194539752926564,
+        "per_class_ap50": {
+          "bird": 0.7281393496021253,
+          "drone": 0.9558116563508487
+        },
+        "confusion_metrics": {},
+        "param_count": 6144,
+        "sensitivity_map50": -0.000744820629071441,
+        "sensitivity_map": -0.000109945840098713,
+        "sensitivity_small": 0.000377369074350431,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.001545008029069539,
+          "drone": 5.536677092665698e-05
+        }
+      }
+    },
+    "model.16.m.0.cv1.conv": {
+      "4": {
+        "layer_name": "model.16.m.0.cv1.conv",
+        "bits": 4,
+        "map50": 0.8338708087101487,
+        "map": 0.4225245421890542,
+        "ap_small": 0.3672450070182042,
+        "per_class_ap50": {
+          "bird": 0.7134850411050773,
+          "drone": 0.9542565763152203
+        },
+        "confusion_metrics": {},
+        "param_count": 4608,
+        "sensitivity_map50": 0.007359873637266867,
+        "sensitivity_map": 0.0048892461326286996,
+        "sensitivity_small": 0.005077759585411901,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.013109300467978535,
+          "drone": 0.001610446806555088
+        }
+      },
+      "8": {
+        "layer_name": "model.16.m.0.cv1.conv",
+        "bits": 8,
+        "map50": 0.8409289735621291,
+        "map": 0.4267757960596404,
+        "ap_small": 0.37204166076263306,
+        "per_class_ap50": {
+          "bird": 0.7259913534312581,
+          "drone": 0.9558665936930002
+        },
+        "confusion_metrics": {},
+        "param_count": 4608,
+        "sensitivity_map50": 0.0003017087852864586,
+        "sensitivity_map": 0.0006379922620425305,
+        "sensitivity_small": 0.00028110584098300917,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0006029881417977112,
+          "drone": 4.2942877520601996e-07
+        }
+      }
+    },
+    "model.16.m.0.cv2.conv": {
+      "4": {
+        "layer_name": "model.16.m.0.cv2.conv",
+        "bits": 4,
+        "map50": 0.8416246011990458,
+        "map": 0.42669703778690576,
+        "ap_small": 0.36585881955754507,
+        "per_class_ap50": {
+          "bird": 0.7283628362213269,
+          "drone": 0.9548863661767646
+        },
+        "confusion_metrics": {},
+        "param_count": 4608,
+        "sensitivity_map50": -0.0003939188516302039,
+        "sensitivity_map": 0.0007167505347771552,
+        "sensitivity_small": 0.006463947046071006,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0017684946482711128,
+          "drone": 0.000980656945010816
+        }
+      },
+      "8": {
+        "layer_name": "model.16.m.0.cv2.conv",
+        "bits": 8,
+        "map50": 0.8398751586502898,
+        "map": 0.4270361415672393,
+        "ap_small": 0.37286822174195355,
+        "per_class_ap50": {
+          "bird": 0.7238855811551249,
+          "drone": 0.9558647361454548
+        },
+        "confusion_metrics": {},
+        "param_count": 4608,
+        "sensitivity_map50": 0.0013555236971257711,
+        "sensitivity_map": 0.00037764675444362794,
+        "sensitivity_small": -0.0005454551383374806,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.002708760417930889,
+          "drone": 2.2869763206534444e-06
+        }
+      }
+    },
+    "model.17.conv": {
+      "4": {
+        "layer_name": "model.17.conv",
+        "bits": 4,
+        "map50": 0.8404056546120185,
+        "map": 0.4268067749421226,
+        "ap_small": 0.37165422843733115,
+        "per_class_ap50": {
+          "bird": 0.7242826670907136,
+          "drone": 0.9565286421333234
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": 0.0008250277353970548,
+        "sensitivity_map": 0.0006070133795603172,
+        "sensitivity_small": 0.0006685381662849266,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.002311674482342152,
+          "drone": -0.0006616190115480425
+        }
+      },
+      "8": {
+        "layer_name": "model.17.conv",
+        "bits": 8,
+        "map50": 0.84125463930357,
+        "map": 0.4273971627384753,
+        "ap_small": 0.3722863085476239,
+        "per_class_ap50": {
+          "bird": 0.7266712893833822,
+          "drone": 0.9558379892237577
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": -2.3956956154425058e-05,
+        "sensitivity_map": 1.662558320764118e-05,
+        "sensitivity_small": 3.6458055992172334e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -7.694781032641096e-05,
+          "drone": 2.9033898017671866e-05
+        }
+      }
+    },
+    "model.19.cv1.conv": {
+      "4": {
+        "layer_name": "model.19.cv1.conv",
+        "bits": 4,
+        "map50": 0.8401829951230337,
+        "map": 0.42675623621122744,
+        "ap_small": 0.3700256276384654,
+        "per_class_ap50": {
+          "bird": 0.7237087045752211,
+          "drone": 0.9566572856708463
+        },
+        "confusion_metrics": {},
+        "param_count": 24576,
+        "sensitivity_map50": 0.0010476872243818658,
+        "sensitivity_map": 0.0006575521104554838,
+        "sensitivity_small": 0.002297138965150658,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0028856369978347285,
+          "drone": -0.0007902625490708859
+        }
+      },
+      "8": {
+        "layer_name": "model.19.cv1.conv",
+        "bits": 8,
+        "map50": 0.8412096428796321,
+        "map": 0.4273974014284511,
+        "ap_small": 0.3722943649434747,
+        "per_class_ap50": {
+          "bird": 0.7265794348378497,
+          "drone": 0.9558398509214143
+        },
+        "confusion_metrics": {},
+        "param_count": 24576,
+        "sensitivity_map50": 2.1039467783534604e-05,
+        "sensitivity_map": 1.6386893231801203e-05,
+        "sensitivity_small": 2.8401660141397223e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 1.490673520609942e-05,
+          "drone": 2.717220036108081e-05
+        }
+      }
+    },
+    "model.19.cv2.conv": {
+      "4": {
+        "layer_name": "model.19.cv2.conv",
+        "bits": 4,
+        "map50": 0.8404835178856649,
+        "map": 0.42593207950442596,
+        "ap_small": 0.3707604518416131,
+        "per_class_ap50": {
+          "bird": 0.7248963169632296,
+          "drone": 0.9560707188081001
+        },
+        "confusion_metrics": {},
+        "param_count": 24576,
+        "sensitivity_map50": 0.0007471644617507156,
+        "sensitivity_map": 0.0014817088172569548,
+        "sensitivity_small": 0.0015623147620029698,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0016980246098261542,
+          "drone": -0.000203695686324723
+        }
+      },
+      "8": {
+        "layer_name": "model.19.cv2.conv",
+        "bits": 8,
+        "map50": 0.8413008353117055,
+        "map": 0.4273080597309954,
+        "ap_small": 0.37183369806917393,
+        "per_class_ap50": {
+          "bird": 0.7267083694537635,
+          "drone": 0.9558933011696475
+        },
+        "confusion_metrics": {},
+        "param_count": 24576,
+        "sensitivity_map50": -7.015296428991569e-05,
+        "sensitivity_map": 0.00010572859068752605,
+        "sensitivity_small": 0.0004890685344421386,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00011402788070768999,
+          "drone": -2.6278047872141386e-05
+        }
+      }
+    },
+    "model.19.m.0.cv1.conv": {
+      "4": {
+        "layer_name": "model.19.m.0.cv1.conv",
+        "bits": 4,
+        "map50": 0.8414959007235707,
+        "map": 0.4263232345314498,
+        "ap_small": 0.37136087577954036,
+        "per_class_ap50": {
+          "bird": 0.7270211126805814,
+          "drone": 0.9559706887665599
+        },
+        "confusion_metrics": {},
+        "param_count": 18432,
+        "sensitivity_map50": -0.00026521837615511856,
+        "sensitivity_map": 0.0010905537902330953,
+        "sensitivity_small": 0.0009618908240757174,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0004267711075256475,
+          "drone": -0.0001036656447844786
+        }
+      },
+      "8": {
+        "layer_name": "model.19.m.0.cv1.conv",
+        "bits": 8,
+        "map50": 0.8411864572102277,
+        "map": 0.42735111446176893,
+        "ap_small": 0.3722804864137305,
+        "per_class_ap50": {
+          "bird": 0.7265677284058224,
+          "drone": 0.955805186014633
+        },
+        "confusion_metrics": {},
+        "param_count": 18432,
+        "sensitivity_map50": 4.4225137187936525e-05,
+        "sensitivity_map": 6.267385991398644e-05,
+        "sensitivity_small": 4.228018988555737e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 2.6613167233402457e-05,
+          "drone": 6.183710714235957e-05
+        }
+      }
+    },
+    "model.19.m.0.cv2.conv": {
+      "4": {
+        "layer_name": "model.19.m.0.cv2.conv",
+        "bits": 4,
+        "map50": 0.8413697563711675,
+        "map": 0.4262687308978683,
+        "ap_small": 0.3702600020177374,
+        "per_class_ap50": {
+          "bird": 0.7268762258311949,
+          "drone": 0.9558632869111401
+        },
+        "confusion_metrics": {},
+        "param_count": 18432,
+        "sensitivity_map50": -0.00013907402375190614,
+        "sensitivity_map": 0.0011450574238145994,
+        "sensitivity_small": 0.0020627645858786736,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0002818842581391312,
+          "drone": 3.736210635318926e-06
+        }
+      },
+      "8": {
+        "layer_name": "model.19.m.0.cv2.conv",
+        "bits": 8,
+        "map50": 0.8412832090579104,
+        "map": 0.4274513440991612,
+        "ap_small": 0.3723237379166434,
+        "per_class_ap50": {
+          "bird": 0.7266584070691356,
+          "drone": 0.9559080110466852
+        },
+        "confusion_metrics": {},
+        "param_count": 18432,
+        "sensitivity_map50": -5.252671049482682e-05,
+        "sensitivity_map": -3.755577747827088e-05,
+        "sensitivity_small": -9.713130273425463e-07,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -6.406549607984591e-05,
+          "drone": -4.098792490980774e-05
+        }
+      }
+    },
+    "model.20.conv": {
+      "4": {
+        "layer_name": "model.20.conv",
+        "bits": 4,
+        "map50": 0.8412342244046529,
+        "map": 0.4276926493636292,
+        "ap_small": 0.37300139006178024,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.9558707208036534
+        },
+        "confusion_metrics": {},
+        "param_count": 147456,
+        "sensitivity_map50": -3.5420572372935055e-06,
+        "sensitivity_map": -0.0002788610419462989,
+        "sensitivity_small": -0.0006786234581641626,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": -3.697681878023218e-06
+        }
+      },
+      "8": {
+        "layer_name": "model.20.conv",
+        "bits": 8,
+        "map50": 0.8412334514483779,
+        "map": 0.4274068869744963,
+        "ap_small": 0.3723197836765087,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9558725613236999
+        },
+        "confusion_metrics": {},
+        "param_count": 147456,
+        "sensitivity_map50": -2.769100962307647e-06,
+        "sensitivity_map": 6.901347186616391e-06,
+        "sensitivity_small": 2.982927107375577e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": -5.538201924504271e-06
+        }
+      }
+    },
+    "model.22.cv1.conv": {
+      "4": {
+        "layer_name": "model.22.cv1.conv",
+        "bits": 4,
+        "map50": 0.8411174805067733,
+        "map": 0.42726864884439697,
+        "ap_small": 0.37252874486155274,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9556406194404907
+        },
+        "confusion_metrics": {},
+        "param_count": 98304,
+        "sensitivity_map50": 0.00011320184064234073,
+        "sensitivity_map": 0.00014513947728594934,
+        "sensitivity_small": -0.00020597825793666757,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": 0.00022640368128468147
+        }
+      },
+      "8": {
+        "layer_name": "model.22.cv1.conv",
+        "bits": 8,
+        "map50": 0.8412428194200907,
+        "map": 0.4274010957789467,
+        "ap_small": 0.372320644656421,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.9558879108345293
+        },
+        "confusion_metrics": {},
+        "param_count": 98304,
+        "sensitivity_map50": -1.2137072675111327e-05,
+        "sensitivity_map": 1.2692542736225665e-05,
+        "sensitivity_small": 2.1219471950661983e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": -2.0887712753880905e-05
+        }
+      }
+    },
+    "model.22.cv2.conv": {
+      "4": {
+        "layer_name": "model.22.cv2.conv",
+        "bits": 4,
+        "map50": 0.8412526291735878,
+        "map": 0.42665403067307367,
+        "ap_small": 0.37317686983711196,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9559109167741199
+        },
+        "confusion_metrics": {},
+        "param_count": 98304,
+        "sensitivity_map50": -2.1946826172181133e-05,
+        "sensitivity_map": 0.0007597576486092494,
+        "sensitivity_small": -0.0008541032334958842,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": -4.389365234447329e-05
+        }
+      },
+      "8": {
+        "layer_name": "model.22.cv2.conv",
+        "bits": 8,
+        "map50": 0.8412139703063509,
+        "map": 0.4273922548877329,
+        "ap_small": 0.37230464104358346,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.955833599039646
+        },
+        "confusion_metrics": {},
+        "param_count": 98304,
+        "sensitivity_map50": 1.6712041064681493e-05,
+        "sensitivity_map": 2.1533433950005065e-05,
+        "sensitivity_small": 1.8125560032611343e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": 3.3424082129362986e-05
+        }
+      }
+    },
+    "model.22.m.0.cv1.conv": {
+      "4": {
+        "layer_name": "model.22.m.0.cv1.conv",
+        "bits": 4,
+        "map50": 0.8408124196158502,
+        "map": 0.42635959392632367,
+        "ap_small": 0.37097452070794196,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.9550271112260481
+        },
+        "confusion_metrics": {},
+        "param_count": 8192,
+        "sensitivity_map50": 0.00041826273156542193,
+        "sensitivity_map": 0.0010541943953592536,
+        "sensitivity_small": 0.0013482458956741161,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": 0.0008399118957272966
+        }
+      },
+      "8": {
+        "layer_name": "model.22.m.0.cv1.conv",
+        "bits": 8,
+        "map50": 0.8412276710140225,
+        "map": 0.42740825491168816,
+        "ap_small": 0.37231373180783034,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9558610004549892
+        },
+        "confusion_metrics": {},
+        "param_count": 8192,
+        "sensitivity_map50": 3.0113333930881225e-06,
+        "sensitivity_map": 5.533409994762373e-06,
+        "sensitivity_small": 9.034795785733962e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": 6.022666786176245e-06
+        }
+      }
+    },
+    "model.22.m.0.cv2.conv": {
+      "4": {
+        "layer_name": "model.22.m.0.cv2.conv",
+        "bits": 4,
+        "map50": 0.8412199046998072,
+        "map": 0.4274114328099497,
+        "ap_small": 0.372318190360768,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9558454678265587
+        },
+        "confusion_metrics": {},
+        "param_count": 8192,
+        "sensitivity_map50": 1.0777647608373186e-05,
+        "sensitivity_map": 2.3555117332207942e-06,
+        "sensitivity_small": 4.576242848053358e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": 2.1555295216746373e-05
+        }
+      },
+      "8": {
+        "layer_name": "model.22.m.0.cv2.conv",
+        "bits": 8,
+        "map50": 0.8412306823474156,
+        "map": 0.4274114562722927,
+        "ap_small": 0.3723213334452691,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9558670231217754
+        },
+        "confusion_metrics": {},
+        "param_count": 8192,
+        "sensitivity_map50": 0.0,
+        "sensitivity_map": 2.3320493902079242e-06,
+        "sensitivity_small": 1.4331583469973097e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": 0.0
+        }
+      }
+    },
+    "model.22.m.0.cv3.conv": {
+      "4": {
+        "layer_name": "model.22.m.0.cv3.conv",
+        "bits": 4,
+        "map50": 0.8406907885939636,
+        "map": 0.42739370532432075,
+        "ap_small": 0.3717108805071839,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.954783849182275
+        },
+        "confusion_metrics": {},
+        "param_count": 16384,
+        "sensitivity_map50": 0.000539893753451981,
+        "sensitivity_map": 2.0082997362169674e-05,
+        "sensitivity_small": 0.000611886096432146,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": 0.0010831739395004147
+        }
+      },
+      "8": {
+        "layer_name": "model.22.m.0.cv3.conv",
+        "bits": 8,
+        "map50": 0.841235109758995,
+        "map": 0.42742096559628084,
+        "ap_small": 0.3723419375035023,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9558758779449342
+        },
+        "confusion_metrics": {},
+        "param_count": 16384,
+        "sensitivity_map50": -4.427411579355223e-06,
+        "sensitivity_map": -7.177274597924832e-06,
+        "sensitivity_small": -1.9170899886233883e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": -8.854823158821468e-06
+        }
+      }
+    },
+    "model.22.m.0.m.0.cv1.conv": {
+      "4": {
+        "layer_name": "model.22.m.0.m.0.cv1.conv",
+        "bits": 4,
+        "map50": 0.8408804282668998,
+        "map": 0.427601745967965,
+        "ap_small": 0.3714683882090247,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.9551631285281474
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": 0.00035025408051581053,
+        "sensitivity_map": -0.00018795764628209977,
+        "sensitivity_small": 0.0008543783945913486,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": 0.0007038945936279628
+        }
+      },
+      "8": {
+        "layer_name": "model.22.m.0.m.0.cv1.conv",
+        "bits": 8,
+        "map50": 0.8412205437330786,
+        "map": 0.42739923150884784,
+        "ap_small": 0.37231535290311885,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.955843359460505
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": 1.0138614336963059e-05,
+        "sensitivity_map": 1.4556812835075927e-05,
+        "sensitivity_small": 7.413700497227449e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": 2.366366127037889e-05
+        }
+      }
+    },
+    "model.22.m.0.m.0.cv2.conv": {
+      "4": {
+        "layer_name": "model.22.m.0.m.0.cv2.conv",
+        "bits": 4,
+        "map50": 0.8407904158753726,
+        "map": 0.4269041485272619,
+        "ap_small": 0.372566172935814,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.954983103745093
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": 0.00044026647204298275,
+        "sensitivity_map": 0.0005096397944210351,
+        "sensitivity_small": -0.0002434063321979374,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": 0.0008839193766824183
+        }
+      },
+      "8": {
+        "layer_name": "model.22.m.0.m.0.cv2.conv",
+        "bits": 8,
+        "map50": 0.8412181144712634,
+        "map": 0.42729071860856915,
+        "ap_small": 0.3723405407268541,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.9558385009368746
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": 1.256787615222521e-05,
+        "sensitivity_map": 0.0001230697131137659,
+        "sensitivity_small": -1.7774123238001316e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": 2.852218490079217e-05
+        }
+      }
+    },
+    "model.22.m.0.m.1.cv1.conv": {
+      "4": {
+        "layer_name": "model.22.m.0.m.1.cv1.conv",
+        "bits": 4,
+        "map50": 0.8413464300412388,
+        "map": 0.42722279012514697,
+        "ap_small": 0.37302009776522393,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9560985185094216
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": -0.00011574769382316497,
+        "sensitivity_map": 0.00019099819653595196,
+        "sensitivity_small": -0.0006973311616078615,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": -0.0002314953876462189
+        }
+      },
+      "8": {
+        "layer_name": "model.22.m.0.m.1.cv1.conv",
+        "bits": 8,
+        "map50": 0.8412371691547462,
+        "map": 0.42741075424467406,
+        "ap_small": 0.3723481541127766,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.9558766103038402
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": -6.4868073306190155e-06,
+        "sensitivity_map": 3.034077008856606e-06,
+        "sensitivity_small": -2.5387509160534893e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": -9.58718206478526e-06
+        }
+      }
+    },
+    "model.22.m.0.m.1.cv2.conv": {
+      "4": {
+        "layer_name": "model.22.m.0.m.1.cv2.conv",
+        "bits": 4,
+        "map50": 0.8410788307692153,
+        "map": 0.4271029243559884,
+        "ap_small": 0.37351601292676895,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.9555599335327783
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": 0.0001518515782003016,
+        "sensitivity_map": 0.0003108639656945189,
+        "sensitivity_small": -0.0011932463231528745,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": 0.00030708958899705596
+        }
+      },
+      "8": {
+        "layer_name": "model.22.m.0.m.1.cv2.conv",
+        "bits": 8,
+        "map50": 0.8412452777069825,
+        "map": 0.42740464326520194,
+        "ap_small": 0.3723328791014388,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9558962138409093
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": -1.4595359566937915e-05,
+        "sensitivity_map": 9.145056480974745e-06,
+        "sensitivity_small": -1.0112497822734046e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": -2.919071913387583e-05
+        }
+      }
+    },
+    "model.23.cv2.0.0.conv": {
+      "4": {
+        "layer_name": "model.23.cv2.0.0.conv",
+        "bits": 4,
+        "map50": 0.8401482133909881,
+        "map": 0.4265956390977375,
+        "ap_small": 0.37088071983129484,
+        "per_class_ap50": {
+          "bird": 0.7240942756031519,
+          "drone": 0.9562021511788242
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": 0.0010824689564274959,
+        "sensitivity_map": 0.000818149223945408,
+        "sensitivity_small": 0.0014420467723212371,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0025000659699039307,
+          "drone": -0.000335128057048828
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv2.0.0.conv",
+        "bits": 8,
+        "map50": 0.8412738896828839,
+        "map": 0.4272632380179524,
+        "ap_small": 0.37231430268700105,
+        "per_class_ap50": {
+          "bird": 0.7266773309742285,
+          "drone": 0.9558704483915392
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": -4.320733546825384e-05,
+        "sensitivity_map": 0.00015055030373051226,
+        "sensitivity_small": 8.463916615020217e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -8.298940117268394e-05,
+          "drone": -3.425269763823735e-06
+        }
+      }
+    },
+    "model.23.cv2.0.1.conv": {
+      "4": {
+        "layer_name": "model.23.cv2.0.1.conv",
+        "bits": 4,
+        "map50": 0.8427573871246704,
+        "map": 0.42523449407855124,
+        "ap_small": 0.3738460870105241,
+        "per_class_ap50": {
+          "bird": 0.7297843983324787,
+          "drone": 0.9557303759168622
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": -0.001526704777254806,
+        "sensitivity_map": 0.0021792942431316797,
+        "sensitivity_small": -0.001523320406908002,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0031900567594228546,
+          "drone": 0.00013664720491324278
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv2.0.1.conv",
+        "bits": 8,
+        "map50": 0.8412233351827088,
+        "map": 0.42737122397495664,
+        "ap_small": 0.37350616079975163,
+        "per_class_ap50": {
+          "bird": 0.7265741090417177,
+          "drone": 0.9558725613236999
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": 7.347164706850151e-06,
+        "sensitivity_map": 4.256434672628151e-05,
+        "sensitivity_small": -0.0011833941961355565,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 2.023253133809355e-05,
+          "drone": -5.538201924504271e-06
+        }
+      }
+    },
+    "model.23.cv2.0.2": {
+      "4": {
+        "layer_name": "model.23.cv2.0.2",
+        "bits": 4,
+        "map50": 0.8286248601991242,
+        "map": 0.4173092882586399,
+        "ap_small": 0.35958496278768637,
+        "per_class_ap50": {
+          "bird": 0.7063194740674696,
+          "drone": 0.9509302463307787
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": 0.012605822148291423,
+        "sensitivity_map": 0.010104500063043031,
+        "sensitivity_small": 0.012737803815929705,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.020274867505586158,
+          "drone": 0.004936776790996689
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv2.0.2",
+        "bits": 8,
+        "map50": 0.8415197946591206,
+        "map": 0.42752771605144346,
+        "ap_small": 0.3727015400176435,
+        "per_class_ap50": {
+          "bird": 0.7271208221366412,
+          "drone": 0.9559187671816001
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": -0.00028911231170503093,
+        "sensitivity_map": -0.00011392772976054344,
+        "sensitivity_small": -0.00037877341402742237,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0005264805635853964,
+          "drone": -5.1744059824665456e-05
+        }
+      }
+    },
+    "model.23.cv2.1.0.conv": {
+      "4": {
+        "layer_name": "model.23.cv2.1.0.conv",
+        "bits": 4,
+        "map50": 0.8405433355130143,
+        "map": 0.42722846724483005,
+        "ap_small": 0.3722706574223443,
+        "per_class_ap50": {
+          "bird": 0.724797390902554,
+          "drone": 0.9562892801234745
+        },
+        "confusion_metrics": {},
+        "param_count": 73728,
+        "sensitivity_map50": 0.0006873468344013034,
+        "sensitivity_map": 0.00018532107685287347,
+        "sensitivity_small": 5.2109181271797755e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0017969506705017846,
+          "drone": -0.00042225700169906677
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv2.1.0.conv",
+        "bits": 8,
+        "map50": 0.8412971352334147,
+        "map": 0.4274496824301329,
+        "ap_small": 0.3722467186189148,
+        "per_class_ap50": {
+          "bird": 0.726727247345054,
+          "drone": 0.9558670231217754
+        },
+        "confusion_metrics": {},
+        "param_count": 73728,
+        "sensitivity_map50": -6.645288599904653e-05,
+        "sensitivity_map": -3.589410845000751e-05,
+        "sensitivity_small": 7.604798470128848e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00013290577199820408,
+          "drone": 0.0
+        }
+      }
+    },
+    "model.23.cv2.1.1.conv": {
+      "4": {
+        "layer_name": "model.23.cv2.1.1.conv",
+        "bits": 4,
+        "map50": 0.840347683191558,
+        "map": 0.42727471535006156,
+        "ap_small": 0.3730828168311326,
+        "per_class_ap50": {
+          "bird": 0.7251551171201782,
+          "drone": 0.9555402492629378
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": 0.0008829991558576555,
+        "sensitivity_map": 0.0001390729716213568,
+        "sensitivity_small": -0.0007600502275165177,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0014392244528775855,
+          "drone": 0.00032677385883761456
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv2.1.1.conv",
+        "bits": 8,
+        "map50": 0.8412935462813536,
+        "map": 0.4272782858353983,
+        "ap_small": 0.37225323195028415,
+        "per_class_ap50": {
+          "bird": 0.7267071447860762,
+          "drone": 0.9558799477766308
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": -6.286393393795109e-05,
+        "sensitivity_map": 0.00013550248628463324,
+        "sensitivity_small": 6.953465333192632e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00011280321302042928,
+          "drone": -1.2924654855361872e-05
+        }
+      }
+    },
+    "model.23.cv2.1.2": {
+      "4": {
+        "layer_name": "model.23.cv2.1.2",
+        "bits": 4,
+        "map50": 0.8361134012278324,
+        "map": 0.4194574688280919,
+        "ap_small": 0.3648236274385388,
+        "per_class_ap50": {
+          "bird": 0.7178907419014163,
+          "drone": 0.9543360605542484
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": 0.005117281119583206,
+        "sensitivity_map": 0.007956319493591046,
+        "sensitivity_small": 0.007499139165077273,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.008703599671639473,
+          "drone": 0.00153096256752705
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv2.1.2",
+        "bits": 8,
+        "map50": 0.8418858036913004,
+        "map": 0.4278880938926619,
+        "ap_small": 0.37297880758547874,
+        "per_class_ap50": {
+          "bird": 0.7278825624088089,
+          "drone": 0.9558890449737919
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": -0.0006551213438847903,
+        "sensitivity_map": -0.0004743055709789945,
+        "sensitivity_small": -0.0006560409818626711,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0012882208357530844,
+          "drone": -2.202185201649609e-05
+        }
+      }
+    },
+    "model.23.cv2.2.0.conv": {
+      "4": {
+        "layer_name": "model.23.cv2.2.0.conv",
+        "bits": 4,
+        "map50": 0.8411392540961974,
+        "map": 0.42624742486556394,
+        "ap_small": 0.3718735129280337,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.9556807801867425
+        },
+        "confusion_metrics": {},
+        "param_count": 147456,
+        "sensitivity_map50": 9.14282512182174e-05,
+        "sensitivity_map": 0.0011663634561189795,
+        "sensitivity_small": 0.00044925367558235063,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": 0.00018624293503288758
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv2.2.0.conv",
+        "bits": 8,
+        "map50": 0.8412306823474156,
+        "map": 0.4274137728542491,
+        "ap_small": 0.3723227666036161,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9558670231217754
+        },
+        "confusion_metrics": {},
+        "param_count": 147456,
+        "sensitivity_map50": 0.0,
+        "sensitivity_map": 1.5467433833737942e-08,
+        "sensitivity_small": 0.0,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": 0.0
+        }
+      }
+    },
+    "model.23.cv2.2.1.conv": {
+      "4": {
+        "layer_name": "model.23.cv2.2.1.conv",
+        "bits": 4,
+        "map50": 0.8411884607691789,
+        "map": 0.4271048880389971,
+        "ap_small": 0.3705645645299556,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9557825799653018
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": 4.2221578236745216e-05,
+        "sensitivity_map": 0.00030890028268582004,
+        "sensitivity_small": 0.0017582020736604531,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": 8.444315647360146e-05
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv2.2.1.conv",
+        "bits": 8,
+        "map50": 0.8412313190976335,
+        "map": 0.42741308428583064,
+        "ap_small": 0.37232119435045286,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.9558649101896148
+        },
+        "confusion_metrics": {},
+        "param_count": 36864,
+        "sensitivity_map50": -6.367502178861173e-07,
+        "sensitivity_map": 7.040358522836243e-07,
+        "sensitivity_small": 1.5722531632178516e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": 2.112932160569514e-06
+        }
+      }
+    },
+    "model.23.cv2.2.2": {
+      "4": {
+        "layer_name": "model.23.cv2.2.2",
+        "bits": 4,
+        "map50": 0.8411437043909311,
+        "map": 0.4255821545477714,
+        "ap_small": 0.3715385440563225,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.95568968077621
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": 8.69779564844908e-05,
+        "sensitivity_map": 0.0018316337739115451,
+        "sensitivity_small": 0.0007842225472936004,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": 0.00017734234556543438
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv2.2.2",
+        "bits": 8,
+        "map50": 0.8412306823474156,
+        "map": 0.4274136319249995,
+        "ap_small": 0.3723227666036161,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9558670231217754
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": 0.0,
+        "sensitivity_map": 1.5639668343725432e-07,
+        "sensitivity_small": 0.0,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": 0.0
+        }
+      }
+    },
+    "model.23.cv3.0.0.0.conv": {
+      "4": {
+        "layer_name": "model.23.cv3.0.0.0.conv",
+        "bits": 4,
+        "map50": 0.8423804701272419,
+        "map": 0.42653091597023723,
+        "ap_small": 0.3723928907867741,
+        "per_class_ap50": {
+          "bird": 0.7291486075568151,
+          "drone": 0.9556123326976688
+        },
+        "confusion_metrics": {},
+        "param_count": 576,
+        "sensitivity_map50": -0.0011497877798263278,
+        "sensitivity_map": 0.0008828723514456849,
+        "sensitivity_small": -7.012418315804902e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0025542659837592963,
+          "drone": 0.00025469042410664056
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv3.0.0.0.conv",
+        "bits": 8,
+        "map50": 0.841312117959105,
+        "map": 0.4273720556034973,
+        "ap_small": 0.3718806262217654,
+        "per_class_ap50": {
+          "bird": 0.7267120664068908,
+          "drone": 0.9559121695113191
+        },
+        "confusion_metrics": {},
+        "param_count": 576,
+        "sensitivity_map50": -8.14356116893844e-05,
+        "sensitivity_map": 4.173271818563862e-05,
+        "sensitivity_small": 0.0004421403818506975,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00011772483383498678,
+          "drone": -4.5146389543671006e-05
+        }
+      }
+    },
+    "model.23.cv3.0.0.1.conv": {
+      "4": {
+        "layer_name": "model.23.cv3.0.0.1.conv",
+        "bits": 4,
+        "map50": 0.842458042688097,
+        "map": 0.4258117125883191,
+        "ap_small": 0.37093384678453517,
+        "per_class_ap50": {
+          "bird": 0.7269861625152257,
+          "drone": 0.9579299228609683
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": -0.0012273603406813827,
+        "sensitivity_map": 0.0016020757333637947,
+        "sensitivity_small": 0.0013889198190809027,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00039182094216994034,
+          "drone": -0.002062899739192936
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv3.0.0.1.conv",
+        "bits": 8,
+        "map50": 0.8412852689036703,
+        "map": 0.4272828698756589,
+        "ap_small": 0.37237697056681673,
+        "per_class_ap50": {
+          "bird": 0.7267463905436415,
+          "drone": 0.955824147263699
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": -5.4586556254676566e-05,
+        "sensitivity_map": 0.0001309184460240309,
+        "sensitivity_small": -5.420396320066079e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00015204897058573863,
+          "drone": 4.28758580763855e-05
+        }
+      }
+    },
+    "model.23.cv3.0.1.0.conv": {
+      "4": {
+        "layer_name": "model.23.cv3.0.1.0.conv",
+        "bits": 4,
+        "map50": 0.8403463527247085,
+        "map": 0.42734119139931925,
+        "ap_small": 0.3706265364584127,
+        "per_class_ap50": {
+          "bird": 0.7251523178908243,
+          "drone": 0.9555403875585926
+        },
+        "confusion_metrics": {},
+        "param_count": 576,
+        "sensitivity_map50": 0.0008843296227071251,
+        "sensitivity_map": 7.259692236366577e-05,
+        "sensitivity_small": 0.0016962301452033701,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0014420236822314525,
+          "drone": 0.00032663556318279774
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv3.0.1.0.conv",
+        "bits": 8,
+        "map50": 0.8408393002263981,
+        "map": 0.42716582786916035,
+        "ap_small": 0.37199113819592106,
+        "per_class_ap50": {
+          "bird": 0.7258537172584653,
+          "drone": 0.955824883194331
+        },
+        "confusion_metrics": {},
+        "param_count": 576,
+        "sensitivity_map50": 0.000391382121017525,
+        "sensitivity_map": 0.0002479604525225665,
+        "sensitivity_small": 0.0003316284076950171,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0007406243145905433,
+          "drone": 4.213992744439565e-05
+        }
+      }
+    },
+    "model.23.cv3.0.1.1.conv": {
+      "4": {
+        "layer_name": "model.23.cv3.0.1.1.conv",
+        "bits": 4,
+        "map50": 0.843610127755605,
+        "map": 0.42810966383676397,
+        "ap_small": 0.37347122222501494,
+        "per_class_ap50": {
+          "bird": 0.7320940173930998,
+          "drone": 0.9551262381181103
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": -0.0023794454081893512,
+        "sensitivity_map": -0.0006958755150810458,
+        "sensitivity_small": -0.0011484556213988695,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.005499675820043959,
+          "drone": 0.0007407850036651453
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv3.0.1.1.conv",
+        "bits": 8,
+        "map50": 0.8412430649819844,
+        "map": 0.42747019968239586,
+        "ap_small": 0.372245389490379,
+        "per_class_ap50": {
+          "bird": 0.726660036140442,
+          "drone": 0.9558260938235269
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": -1.2382634568819384e-05,
+        "sensitivity_map": -5.641136071293795e-05,
+        "sensitivity_small": 7.737711323707597e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -6.56945673861431e-05,
+          "drone": 4.092929824850433e-05
+        }
+      }
+    },
+    "model.23.cv3.0.2": {
+      "4": {
+        "layer_name": "model.23.cv3.0.2",
+        "bits": 4,
+        "map50": 0.8365562454311848,
+        "map": 0.4246460501542388,
+        "ap_small": 0.36905090244798,
+        "per_class_ap50": {
+          "bird": 0.7200661850615185,
+          "drone": 0.953046305800851
+        },
+        "confusion_metrics": {},
+        "param_count": 128,
+        "sensitivity_map50": 0.0046744369162308175,
+        "sensitivity_map": 0.0027677381674441337,
+        "sensitivity_small": 0.003271864155636073,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.006528156511537264,
+          "drone": 0.0028207173209243708
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv3.0.2",
+        "bits": 8,
+        "map50": 0.8408176708105171,
+        "map": 0.4274118284102536,
+        "ap_small": 0.37199355500913445,
+        "per_class_ap50": {
+          "bird": 0.725909605806938,
+          "drone": 0.9557257358140961
+        },
+        "confusion_metrics": {},
+        "param_count": 128,
+        "sensitivity_map50": 0.0004130115368985443,
+        "sensitivity_map": 1.9599114293167297e-06,
+        "sensitivity_small": 0.0003292115944816265,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0006847357661178277,
+          "drone": 0.0001412873076792609
+        }
+      }
+    },
+    "model.23.cv3.1.0.0.conv": {
+      "4": {
+        "layer_name": "model.23.cv3.1.0.0.conv",
+        "bits": 4,
+        "map50": 0.8409920889107321,
+        "map": 0.4270396342262687,
+        "ap_small": 0.37229119952874196,
+        "per_class_ap50": {
+          "bird": 0.7263231962607343,
+          "drone": 0.95566098156073
+        },
+        "confusion_metrics": {},
+        "param_count": 1152,
+        "sensitivity_map50": 0.00023859343668353183,
+        "sensitivity_map": 0.000374154095414192,
+        "sensitivity_small": 3.156707487411703e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.00027114531232153016,
+          "drone": 0.00020604156104542248
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv3.1.0.0.conv",
+        "bits": 8,
+        "map50": 0.8412269228862324,
+        "map": 0.4274536142216562,
+        "ap_small": 0.3723166747489618,
+        "per_class_ap50": {
+          "bird": 0.7266155125075643,
+          "drone": 0.9558383332649003
+        },
+        "confusion_metrics": {},
+        "param_count": 1152,
+        "sensitivity_map50": 3.7594611832503233e-06,
+        "sensitivity_map": -3.982589997325592e-05,
+        "sensitivity_small": 6.09185465427764e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -2.1170934508485395e-05,
+          "drone": 2.8689856875097064e-05
+        }
+      }
+    },
+    "model.23.cv3.1.0.1.conv": {
+      "4": {
+        "layer_name": "model.23.cv3.1.0.1.conv",
+        "bits": 4,
+        "map50": 0.8425023579452718,
+        "map": 0.42616069217639063,
+        "ap_small": 0.37230063366104316,
+        "per_class_ap50": {
+          "bird": 0.7283438803754452,
+          "drone": 0.9566608355150985
+        },
+        "confusion_metrics": {},
+        "param_count": 8192,
+        "sensitivity_map50": -0.0012716755978562366,
+        "sensitivity_map": 0.0012530961452922873,
+        "sensitivity_small": 2.2132942572916647e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.001749538802389372,
+          "drone": -0.0007938123933231012
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv3.1.0.1.conv",
+        "bits": 8,
+        "map50": 0.8412805399281833,
+        "map": 0.4274104844376566,
+        "ap_small": 0.37232533826052583,
+        "per_class_ap50": {
+          "bird": 0.7267280404531644,
+          "drone": 0.9558330394032022
+        },
+        "confusion_metrics": {},
+        "param_count": 8192,
+        "sensitivity_map50": -4.9857580767698195e-05,
+        "sensitivity_map": 3.3038840263066582e-06,
+        "sensitivity_small": -2.571656909755582e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.00013369888010861253,
+          "drone": 3.398371857321614e-05
+        }
+      }
+    },
+    "model.23.cv3.1.1.0.conv": {
+      "4": {
+        "layer_name": "model.23.cv3.1.1.0.conv",
+        "bits": 4,
+        "map50": 0.8421287278917619,
+        "map": 0.4269264814165024,
+        "ap_small": 0.37233163627820465,
+        "per_class_ap50": {
+          "bird": 0.7284947322612915,
+          "drone": 0.9557627235222322
+        },
+        "confusion_metrics": {},
+        "param_count": 576,
+        "sensitivity_map50": -0.0008980455443462487,
+        "sensitivity_map": 0.0004873069051805068,
+        "sensitivity_small": -8.869674588574128e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0019003906882356647,
+          "drone": 0.00010429959954316725
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv3.1.1.0.conv",
+        "bits": 8,
+        "map50": 0.8411832720914023,
+        "map": 0.42737839719997395,
+        "ap_small": 0.3722744497860472,
+        "per_class_ap50": {
+          "bird": 0.7265467510192763,
+          "drone": 0.9558197931635284
+        },
+        "confusion_metrics": {},
+        "param_count": 576,
+        "sensitivity_map50": 4.741025601329163e-05,
+        "sensitivity_map": 3.539112170897196e-05,
+        "sensitivity_small": 4.8316817568894166e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 4.759055377945298e-05,
+          "drone": 4.7229958247019255e-05
+        }
+      }
+    },
+    "model.23.cv3.1.1.1.conv": {
+      "4": {
+        "layer_name": "model.23.cv3.1.1.1.conv",
+        "bits": 4,
+        "map50": 0.8422408565993114,
+        "map": 0.4268451013761119,
+        "ap_small": 0.3708682958899603,
+        "per_class_ap50": {
+          "bird": 0.7275766908135575,
+          "drone": 0.9569050223850651
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": -0.0010101742518957568,
+        "sensitivity_map": 0.0005686869455709953,
+        "sensitivity_small": 0.0014544707136557866,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -0.0009823492405016676,
+          "drone": -0.001037999263289735
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv3.1.1.1.conv",
+        "bits": 8,
+        "map50": 0.8412246670089604,
+        "map": 0.4273302860481888,
+        "ap_small": 0.37200243682852613,
+        "per_class_ap50": {
+          "bird": 0.7265869755344161,
+          "drone": 0.9558623584835046
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": 6.015338455234165e-06,
+        "sensitivity_map": 8.350227349412931e-05,
+        "sensitivity_small": 0.00032032977508994476,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 7.366038639711192e-06,
+          "drone": 4.664638270757138e-06
+        }
+      }
+    },
+    "model.23.cv3.1.2": {
+      "4": {
+        "layer_name": "model.23.cv3.1.2",
+        "bits": 4,
+        "map50": 0.8393462968687492,
+        "map": 0.42223562247437607,
+        "ap_small": 0.363111867158426,
+        "per_class_ap50": {
+          "bird": 0.7239438344980554,
+          "drone": 0.9547487592394429
+        },
+        "confusion_metrics": {},
+        "param_count": 128,
+        "sensitivity_map50": 0.0018843854786664282,
+        "sensitivity_map": 0.005178165847306848,
+        "sensitivity_small": 0.009210899445190046,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0026505070750003634,
+          "drone": 0.001118263882332493
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv3.1.2",
+        "bits": 8,
+        "map50": 0.8412138039449824,
+        "map": 0.42708483967250704,
+        "ap_small": 0.3721019564826336,
+        "per_class_ap50": {
+          "bird": 0.726605215613294,
+          "drone": 0.9558223922766707
+        },
+        "confusion_metrics": {},
+        "param_count": 128,
+        "sensitivity_map50": 1.6878402433251338e-05,
+        "sensitivity_map": 0.0003289486491758753,
+        "sensitivity_small": 0.000220810120982462,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -1.0874040238251226e-05,
+          "drone": 4.46308451047539e-05
+        }
+      }
+    },
+    "model.23.cv3.2.0.0.conv": {
+      "4": {
+        "layer_name": "model.23.cv3.2.0.0.conv",
+        "bits": 4,
+        "map50": 0.8413213745927377,
+        "map": 0.427376945886125,
+        "ap_small": 0.3723641867420522,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.956045021179823
+        },
+        "confusion_metrics": {},
+        "param_count": 2304,
+        "sensitivity_map50": -9.06922453220993e-05,
+        "sensitivity_map": 3.684243555790445e-05,
+        "sensitivity_small": -4.142013843611014e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": -0.0001779980580476348
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv3.2.0.0.conv",
+        "bits": 8,
+        "map50": 0.8412427215445524,
+        "map": 0.4274091437050436,
+        "ap_small": 0.37233027235461313,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.9558877150834525
+        },
+        "confusion_metrics": {},
+        "param_count": 2304,
+        "sensitivity_map50": -1.2039197136770596e-05,
+        "sensitivity_map": 4.644616639293275e-06,
+        "sensitivity_small": -7.505750997061078e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": -2.0691961677088422e-05
+        }
+      }
+    },
+    "model.23.cv3.2.0.1.conv": {
+      "4": {
+        "layer_name": "model.23.cv3.2.0.1.conv",
+        "bits": 4,
+        "map50": 0.8413483906701389,
+        "map": 0.42747836844389153,
+        "ap_small": 0.372549777507569,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9561024397672219
+        },
+        "confusion_metrics": {},
+        "param_count": 16384,
+        "sensitivity_map50": -0.00011770832272328668,
+        "sensitivity_map": -6.458012220861287e-05,
+        "sensitivity_small": -0.00022701090395294,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": -0.00023541664544646235
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv3.2.0.1.conv",
+        "bits": 8,
+        "map50": 0.8412500643362999,
+        "map": 0.42744871552094166,
+        "ap_small": 0.37233955632312865,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.9559024006669476
+        },
+        "confusion_metrics": {},
+        "param_count": 16384,
+        "sensitivity_map50": -1.9381988884292767e-05,
+        "sensitivity_map": -3.492719925873855e-05,
+        "sensitivity_small": -1.6789719512577683e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": -3.5377545172243785e-05
+        }
+      }
+    },
+    "model.23.cv3.2.1.0.conv": {
+      "4": {
+        "layer_name": "model.23.cv3.2.1.0.conv",
+        "bits": 4,
+        "map50": 0.841304941439895,
+        "map": 0.427616528689886,
+        "ap_small": 0.3723557975165423,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.9560121548741378
+        },
+        "confusion_metrics": {},
+        "param_count": 576,
+        "sensitivity_map50": -7.425909247937845e-05,
+        "sensitivity_map": -0.00020274036820305819,
+        "sensitivity_small": -3.3030912926224065e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": -0.00014513175236241516
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv3.2.1.0.conv",
+        "bits": 8,
+        "map50": 0.8412497845882708,
+        "map": 0.42740481642766764,
+        "ap_small": 0.3723129612745628,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.9559018411708894
+        },
+        "confusion_metrics": {},
+        "param_count": 576,
+        "sensitivity_map50": -1.9102240855217723e-05,
+        "sensitivity_map": 8.971894015274984e-06,
+        "sensitivity_small": 9.805329053258482e-06,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": -3.4818049113982674e-05
+        }
+      }
+    },
+    "model.23.cv3.2.1.1.conv": {
+      "4": {
+        "layer_name": "model.23.cv3.2.1.1.conv",
+        "bits": 4,
+        "map50": 0.8413391987468182,
+        "map": 0.4272865697557098,
+        "ap_small": 0.3720277858780131,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9560840559205807
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": -0.00010851639940256952,
+        "sensitivity_map": 0.00012721856597314174,
+        "sensitivity_small": 0.00029498072560296684,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": -0.00021703279880525006
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv3.2.1.1.conv",
+        "bits": 8,
+        "map50": 0.8412417660673266,
+        "map": 0.42742882077282146,
+        "ap_small": 0.3723613233870042,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9558891905615975
+        },
+        "confusion_metrics": {},
+        "param_count": 4096,
+        "sensitivity_map50": -1.1083719910987e-05,
+        "sensitivity_map": -1.5032451138541347e-05,
+        "sensitivity_small": -3.8556783388099536e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": -2.2167439822085022e-05
+        }
+      }
+    },
+    "model.23.cv3.2.2": {
+      "4": {
+        "layer_name": "model.23.cv3.2.2",
+        "bits": 4,
+        "map50": 0.8412553088966013,
+        "map": 0.42735882513226375,
+        "ap_small": 0.37252970993360035,
+        "per_class_ap50": {
+          "bird": 0.7265977280056523,
+          "drone": 0.9559128897875504
+        },
+        "confusion_metrics": {},
+        "param_count": 128,
+        "sensitivity_map50": -2.4626549185668978e-05,
+        "sensitivity_map": 5.4963189419166e-05,
+        "sensitivity_small": -0.0002069433299842771,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": -3.386432596452771e-06,
+          "drone": -4.586666577499621e-05
+        }
+      },
+      "8": {
+        "layer_name": "model.23.cv3.2.2",
+        "bits": 8,
+        "map50": 0.841245030235004,
+        "map": 0.42731912412986894,
+        "ap_small": 0.37237069609987355,
+        "per_class_ap50": {
+          "bird": 0.7265943415730558,
+          "drone": 0.9558957188969521
+        },
+        "confusion_metrics": {},
+        "param_count": 128,
+        "sensitivity_map50": -1.4347887588361807e-05,
+        "sensitivity_map": 9.466419181397567e-05,
+        "sensitivity_small": -4.792949625748166e-05,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.0,
+          "drone": -2.8695775176723615e-05
+        }
+      }
+    },
+    "model.23.dfl.conv": {
+      "4": {
+        "layer_name": "model.23.dfl.conv",
+        "bits": 4,
+        "map50": 0.48352920500005014,
+        "map": 0.22011711145885154,
+        "ap_small": 0.16951350048957695,
+        "per_class_ap50": {
+          "bird": 0.26210387914926714,
+          "drone": 0.7049545308508331
+        },
+        "confusion_metrics": {},
+        "param_count": 16,
+        "sensitivity_map50": 0.35770147734736546,
+        "sensitivity_map": 0.20729667686283137,
+        "sensitivity_small": 0.20280926611403913,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.46449046242378866,
+          "drone": 0.25091249227094226
+        }
+      },
+      "8": {
+        "layer_name": "model.23.dfl.conv",
+        "bits": 8,
+        "map50": 0.8335373512040656,
+        "map": 0.4219242345233334,
+        "ap_small": 0.36981243302319344,
+        "per_class_ap50": {
+          "bird": 0.7142352091982422,
+          "drone": 0.9528394932098888
+        },
+        "confusion_metrics": {},
+        "param_count": 16,
+        "sensitivity_map50": 0.007693331143350024,
+        "sensitivity_map": 0.0054895537983495335,
+        "sensitivity_small": 0.00251033358042263,
+        "sensitivity_discrimination": 0,
+        "sensitivity_per_class": {
+          "bird": 0.012359132374813564,
+          "drone": 0.003027529911886595
+        }
+      }
+    }
+  }
+}
