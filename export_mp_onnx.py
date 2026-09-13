@@ -11,20 +11,14 @@ fusion because fused weights differ numerically from unfused PyTorch
 weights; order is preserved regardless.
 
 Usage:
-    python export_mp_onnx.py \
-        --model runs_qat/qat/drone_qat/weights/best.pt \
-        --allocation bit_allocation.json \
-        --output model_mixed_precision.onnx \
-        --imgsz 640
+    python export_mp_onnx.py
 
 Requirements:
     pip install ultralytics>=8.3.0 onnx numpy
 """
 
-import argparse
 import json
 import os
-import sys
 from typing import Dict, Optional
 
 import numpy as np
@@ -243,27 +237,15 @@ def apply_mixed_precision(
 # ============================================================================
 
 def main():
-    parser = argparse.ArgumentParser(
-        description='Standalone mixed-precision ONNX exporter for QAT-trained '
-                    'YOLOv11n models. Uses order-based layer matching '
-                    '(robust to Conv+BN fusion during Ultralytics export).')
-    parser.add_argument('--model', type=str, required=True,
-                        help='Path to trained QAT model weights (.pt)')
-    parser.add_argument('--allocation', type=str, required=True,
-                        help='Path to bit_allocation.json (from Stage 2)')
-    parser.add_argument('--output', type=str, default='model_mixed_precision.onnx',
-                        help='Output ONNX path (default: model_mixed_precision.onnx)')
-    parser.add_argument('--imgsz', type=int, default=640,
-                        help='Input image size (default: 640)')
-    parser.add_argument('--keep-fp32-onnx', action='store_true',
-                        help='Keep the intermediate FP32 ONNX file')
-    parser.add_argument('--fp32-onnx-path', type=str, default=None,
-                        help='(Advanced) Skip Ultralytics export; use this '
-                             'existing FP32 ONNX file directly')
-    args = parser.parse_args()
+    model_path = 'runs_QAT/detect/runs/qat/drone_qat/weights/best.pt'
+    allocation_path = 'bit_allocation.json'
+    output_path = 'model_mixed_precision_quantized.onnx'
+    imgsz = 640
+    keep_fp32_onnx = False
+    fp32_onnx_path = None
 
     # --- load bit allocation ---
-    with open(args.allocation) as f:
+    with open(allocation_path) as f:
         bit_allocation = {k: int(v) for k, v in json.load(f).items()}
     print(f"Loaded bit allocation: {len(bit_allocation)} layers")
     from collections import Counter
@@ -272,23 +254,21 @@ def main():
         print(f"  {bits}-bit: {c[bits]} layers")
 
     # --- get Conv2d layer names in order ---
-    if args.fp32_onnx_path:
-        # Advanced mode: user provides existing FP32 ONNX + we need the layer
-        # names from the PyTorch model
-        print(f"\nUsing existing FP32 ONNX: {args.fp32_onnx_path}")
+    if fp32_onnx_path:
+        # Advanced mode: user provides existing FP32 ONNX + we need the layer names from the PyTorch model
+        print(f"\nUsing existing FP32 ONNX: {fp32_onnx_path}")
         from ultralytics import YOLO
         import torch.nn as nn
-        model = YOLO(args.model)
-        layer_names = [n for n, m in model.model.named_modules()
-                       if isinstance(m, nn.Conv2d)]
-        fp32_path = args.fp32_onnx_path
+        model = YOLO(model_path)
+        layer_names = [n for n, m in model.model.named_modules() if isinstance(m, nn.Conv2d)]
+        fp32_path = fp32_onnx_path
     else:
         # Standard mode: export FP32 ONNX via Ultralytics, then collect names
         from ultralytics import YOLO
         import torch.nn as nn
 
-        print(f"\nLoading QAT model: {args.model}")
-        model = YOLO(args.model)
+        print(f"\nLoading QAT model: {model_path}")
+        model = YOLO(model_path)
 
         # Collect Conv2d layer names BEFORE export (named_modules order)
         layer_names = [n for n, m in model.model.named_modules()
@@ -296,10 +276,10 @@ def main():
         print(f"Found {len(layer_names)} Conv2d layers")
 
         # Export FP32 ONNX
-        print(f"Exporting FP32 ONNX (imgsz={args.imgsz}, opset=13)...")
+        print(f"Exporting FP32 ONNX (imgsz={imgsz}, opset=13)...")
         fp32_path = model.export(
             format='onnx',
-            imgsz=args.imgsz,
+            imgsz=imgsz,
             opset=13,
             simplify=True,
             dynamic=False,
@@ -312,23 +292,22 @@ def main():
         fp32_path,
         layer_names,
         bit_allocation,
-        args.output,
+        output_path,
     )
 
     # --- cleanup ---
-    if not args.keep_fp32_onnx and args.fp32_onnx_path is None:
-        if os.path.exists(fp32_path) and fp32_path != args.output:
+    if not keep_fp32_onnx and fp32_onnx_path is None:
+        if os.path.exists(fp32_path) and fp32_path != output_path:
             os.remove(fp32_path)
             print(f"Removed intermediate FP32 ONNX: {fp32_path}")
 
-    print(f"\nDone. Mixed-precision model: {args.output}")
+    print(f"\nDone. Mixed-precision model: {output_path}")
     print(f"Validate with: "
           f"python -c \"import onnxruntime; "
-          f"s=onnxruntime.InferenceSession('{args.output}'); "
+          f"s=onnxruntime.InferenceSession('{output_path}'); "
           f"print('OK, inputs:', [i.name for i in s.get_inputs()])\"")
 
     return report
-
 
 if __name__ == '__main__':
     main()
